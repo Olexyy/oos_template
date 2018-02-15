@@ -1,0 +1,31 @@
+cdn_provider: ''
+schemas:
+  bootstrap: 8000
+  oos: 8000
+features:
+  comment_user_picture: false
+  comment_user_verification: false
+  favicon: false
+  node_user_picture: false
+logo:
+  path: themes/custom/oos/logo.png
+  url: ''
+  use_default: false
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  extra_header: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+favicon:
+  mimetype: image/png
+  path: themes/custom/oos/favicon.png
+  url: 'http://localhost/themes/bootstrap/favicon.ico'
+  use_default: false
+table: ''
+langcode: uk

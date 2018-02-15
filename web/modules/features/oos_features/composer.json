@@ -1,0 +1,10 @@
+{
+  "name": "drupal/oos_features",
+  "description": "Integration for VR View project features.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/features" : "^3.5.0"
+  }
+}

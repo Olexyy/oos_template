@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: landing
+label: Landing
+description: Landing
+use_admin_theme: false
+path: /landing
+access_logic: and
+access_conditions: {  }
+parameters: {  }

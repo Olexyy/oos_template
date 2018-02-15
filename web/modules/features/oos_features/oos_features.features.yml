@@ -1,0 +1,4 @@
+excluded:
+  - node.type.article
+  - views.view.frontpage
+required: true

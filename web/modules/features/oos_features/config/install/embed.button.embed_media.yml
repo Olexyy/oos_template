@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+    - media.type.video
+  module:
+    - entity_embed
+    - media
+label: 'Embed media'
+id: embed_media
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+    - video
+  display_plugins:
+    - 'view_mode:media.full'
+    - 'entity_reference:media_thumbnail'
+  entity_browser: media_browser_ck_editor
+  entity_browser_settings:
+    display_review: true
+icon_uuid: null

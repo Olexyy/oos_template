@@ -1,0 +1,14 @@
+diff --git a/src/Form/LayoutPluginSelector.php b/src/Form/LayoutPluginSelector.php
+index 586ab36..cc1847b 100644
+--- a/src/Form/LayoutPluginSelector.php
++++ b/src/Form/LayoutPluginSelector.php
+@@ -108,6 +108,10 @@ class LayoutPluginSelector extends FormBase {
+       $next_op = $wizard->getNextOp();
+       $form_state->setValue('op', $next_op);
+     }
++    // Creating a new layout. Take the selected layout value.
++    else {
++      $variant_plugin->setLayout($form_state->getValue('layout'));
++    }
+
+     $cached_values['plugin'] = $variant_plugin;

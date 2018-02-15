@@ -1,0 +1,16 @@
+.menu--footer, #block-footer {
+  display: inline-block;
+  li {
+    display: inline-block;
+    a:hover{
+      background-color: transparent;
+    }
+  }
+}
+#block-mainnavigation{
+  li {
+    a:hover{
+      background-color: transparent;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+name: OOS blocks
+type: module
+description: 'OOS blocks.'
+package: custom
+core: 8.x
+
+dependencies:
+ - media
+ - entity_browser

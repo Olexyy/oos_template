@@ -1,0 +1,39 @@
+name: 'OOS Features'
+description: 'OOS Features'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - ckeditor
+  - comment
+  - datetime
+  - editor
+  - embed
+  - entity_browser
+  - entity_browser_entity_form
+  - entity_embed
+  - field
+  - field_layout
+  - file
+  - filter
+  - image
+  - language
+  - layout_discovery
+  - media
+  - node
+  - oos_blocks
+  - options
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - rdf
+  - search
+  - system
+  - taxonomy
+  - text
+  - user
+  - video_embed_media
+  - video_embed_wysiwyg
+  - views
+version: 8.x-1.0

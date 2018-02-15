@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Group name'
+vid: group_name
+description: 'Name for group.'
+hierarchy: 0
+weight: 0

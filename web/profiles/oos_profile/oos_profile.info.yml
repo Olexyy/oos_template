@@ -1,0 +1,79 @@
+name: OOS profile
+type: profile
+description: 'Install oos template.'
+version: VERSION
+core: 8.x
+
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - automated_cron
+  # i18n
+  - config_translation
+  - content_translation
+  - locale
+
+  # Media.
+  - media
+  - entity_browser
+  - embed
+  - video_embed_field
+  - inline_entity_form
+  - media_entity_instagram
+  - entity_browser_entity_form
+  - video_embed_media
+  - video_embed_wysiwyg
+  - dropzonejs
+
+  # Contrib.
+  - panels
+  - radix_layouts
+  - token
+  - page_manager
+  - page_manager_ui
+  - features
+  - features_ui
+  - module_filter
+  - default_content
+  - ctools
+  - config_update
+  - bootstrap_layouts
+  - panelizer
+  - panelizer_quickedit
+  # Custom.
+
+themes:
+  - bartik
+  - seven
+  - bootstrap
+  - oos

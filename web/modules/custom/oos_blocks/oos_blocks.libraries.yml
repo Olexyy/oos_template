@@ -1,0 +1,4 @@
+parallax:
+  css:
+    theme:
+      css/parallax.css: {}
