@@ -76,7 +76,7 @@ class ParallaxImage extends BlockBase {
               'parallax-text',
             ],
             'style' => "text-align: center;
-                        margin-top: 200px;
+                        margin-top: calc(100vw * 0.2);
                         background-color: rgba(0, 0, 0, 0.3);
                         padding: 15px;
                         display: inline-block;
@@ -88,13 +88,14 @@ class ParallaxImage extends BlockBase {
         '#attributes' => [
           'class' => ['parallax'],
           'style' => "background-image: url({$url});
-                    min-height: 500px;
-                    background-attachment: fixed;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 100% auto;
-                    top: -50px;
-                    text-align: center;",
+            width: 100%;
+            height: calc(100vw * 0.5);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: -50px;
+            text-align: center;",
         ],
         '#cache' => ['max-age' => 0,],
       ];
