@@ -42,4 +42,5 @@ dependencies:
   - video_embed_media
   - video_embed_wysiwyg
   - views
+  - default_content
 version: 8.x-1.0
