@@ -36,4 +36,6 @@ dependencies:
   - video_embed_media
   - video_embed_wysiwyg
   - views
+  - bootstrap_layouts
+  - radix_layouts
 version: 8.x-1.0
