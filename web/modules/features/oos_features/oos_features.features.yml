@@ -1,4 +1,6 @@
 excluded:
   - node.type.article
   - views.view.frontpage
+  - block.block.bartik_footer
+  - block.block.bartik_main_menu
 required: true
