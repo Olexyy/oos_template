@@ -14,6 +14,8 @@ dependencies:
   - entity_browser
   - entity_browser_entity_form
   - entity_embed
+  - features
+  - features_ui
   - field
   - field_layout
   - file
@@ -22,7 +24,6 @@ dependencies:
   - language
   - layout_discovery
   - media
-  - media_entity_instagram
   - menu_ui
   - node
   - oos_blocks

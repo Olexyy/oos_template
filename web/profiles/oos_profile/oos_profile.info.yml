@@ -49,7 +49,6 @@ dependencies:
   - embed
   - video_embed_field
   - inline_entity_form
-  - media_entity_instagram
   - entity_browser_entity_form
   - video_embed_media
   - video_embed_wysiwyg

@@ -16,9 +16,8 @@ type_settings:
     - image
     - video
   display_plugins:
-    - 'view_mode:media.full'
     - 'entity_reference:media_thumbnail'
-  entity_browser: media_browser_ck_editor
+  entity_browser: media_selector
   entity_browser_settings:
     display_review: true
 icon_uuid: null

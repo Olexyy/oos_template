@@ -169,14 +169,12 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:core.entity_view_display.node.group.default'
+        - 'config:core.entity_view_display.node.group.teaser'
         - 'config:core.entity_view_display.node.article.default'
         - 'config:core.entity_view_display.node.article.rss'
         - 'config:core.entity_view_display.node.article.teaser'
-        - 'config:core.entity_view_display.node.group.default'
-        - 'config:core.entity_view_display.node.group.teaser'
-        - 'config:core.entity_view_display.node.page.custom'
         - 'config:core.entity_view_display.node.page.default'
-        - 'config:core.entity_view_display.node.page.full'
         - 'config:core.entity_view_display.node.page.teaser'
   block_1:
     display_plugin: block
@@ -197,7 +195,5 @@ display:
         - 'config:core.entity_view_display.node.article.teaser'
         - 'config:core.entity_view_display.node.group.default'
         - 'config:core.entity_view_display.node.group.teaser'
-        - 'config:core.entity_view_display.node.page.custom'
         - 'config:core.entity_view_display.node.page.default'
-        - 'config:core.entity_view_display.node.page.full'
         - 'config:core.entity_view_display.node.page.teaser'

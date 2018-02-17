@@ -1,0 +1,27 @@
+<?php
+
+use Drupal\menu_link_content\Entity\MenuLinkContent;
+
+/**
+ * Install/update actions.
+ */
+function oos_base_install() {
+  \Drupal::service('theme_installer')->install(['oos']);
+  \Drupal::service('theme_handler')->setDefault('oos');
+  $items = [
+    'Новини' => '/news',
+    'Групи' => '/groups',
+    'Вихователі' => '/teachers',
+    'Про садок' => '/about',
+  ];
+  foreach($items as $name => $path) {
+    $menu_link = MenuLinkContent::create([
+      'title' => $name,
+      'description' => $name,
+      'link' => ['uri' => 'internal:' . $path],
+      'menu_name' => 'main',
+      'expanded' => FALSE,
+    ]);
+    $menu_link->save();
+  }
+}

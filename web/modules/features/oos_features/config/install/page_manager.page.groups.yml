@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: groups
+label: Groups
+description: Groups.
+use_admin_theme: false
+path: /groups
+access_logic: and
+access_conditions: {  }
+parameters: {  }

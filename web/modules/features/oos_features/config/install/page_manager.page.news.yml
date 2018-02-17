@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: news
+label: News
+description: News.
+use_admin_theme: false
+path: /news
+access_logic: and
+access_conditions: {  }
+parameters: {  }

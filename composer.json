@@ -20,7 +20,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.4",
+        "drupal/core": "8.4.4",
         "drush/drush": "~8.0|^9.0.0-beta8",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
@@ -44,9 +44,7 @@
         "drupal/embed": "^1.0",
         "drupal/entity_embed": "^1.0-beta2 ",
         "drupal/video_embed_field": "^2.0-alpha2",
-        "drupal/inline_entity_form": "^1.0-beta1",
-        "drupal/media_entity_instagram": "2.0-alpha1",
-        "drupal/dropzonejs": "^2.0-alpha3"
+        "drupal/inline_entity_form": "^1.0-beta1"
     },
     "require-dev": {
         "behat/mink": "~1.7",
