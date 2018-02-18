@@ -4,10 +4,18 @@ use Drupal\menu_link_content\Entity\MenuLinkContent;
 
 /**
  * Install/update actions.
+ *
+ * This is intended to be installed along with features.
  */
 function oos_base_install() {
   \Drupal::service('theme_installer')->install(['oos']);
   \Drupal::service('theme_handler')->setDefault('oos');
+  // Set front page to "/landing", see oos_features.
+  \Drupal::configFactory()
+    ->getEditable('system.site')
+    ->set('page.front', '/landing')
+    ->set('mail', 'dnz.135.lviv@gmail.com')
+    ->save(TRUE);
   $items = [
     'Новини' => '/news',
     'Групи' => '/groups',

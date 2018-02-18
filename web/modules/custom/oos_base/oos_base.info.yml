@@ -4,4 +4,5 @@ description: 'OOS base.'
 package: custom
 core: 8.x
 
-dependencies: { }
+dependencies:
+  - oos_features
