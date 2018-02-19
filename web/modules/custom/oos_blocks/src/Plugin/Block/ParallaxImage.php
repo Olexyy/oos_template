@@ -106,7 +106,7 @@ class ParallaxImage extends BlockBase {
    * AJAX form callback.
    */
   public static function updateWidgetCallback(array &$form, FormStateInterface $form_state) {
-    return $form['selected']['thumbnail'];
+    return $form['settings']['selected']['thumbnail'];
   }
 
   /**
