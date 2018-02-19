@@ -10,6 +10,7 @@ use Drupal\menu_link_content\Entity\MenuLinkContent;
 function oos_base_install() {
   \Drupal::service('theme_installer')->install(['oos']);
   \Drupal::service('theme_handler')->setDefault('oos');
+  \Drupal::service('theme_installer')->uninstall(['bartik']);
   // Set front page to "/landing", see oos_features.
   \Drupal::configFactory()
     ->getEditable('system.site')
@@ -22,6 +23,7 @@ function oos_base_install() {
     'Вихователі' => '/teachers',
     'Про садок' => '/about',
   ];
+  $weight = 1;
   foreach($items as $name => $path) {
     $menu_link = MenuLinkContent::create([
       'title' => $name,
@@ -29,7 +31,9 @@ function oos_base_install() {
       'link' => ['uri' => 'internal:' . $path],
       'menu_name' => 'main',
       'expanded' => FALSE,
+      'weight' => $weight,
     ]);
     $menu_link->save();
+    $weight++;
   }
 }

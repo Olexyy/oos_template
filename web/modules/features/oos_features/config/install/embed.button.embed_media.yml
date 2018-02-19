@@ -17,7 +17,7 @@ type_settings:
     - video
   display_plugins:
     - 'entity_reference:media_thumbnail'
-  entity_browser: media_selector
+  entity_browser: iframe
   entity_browser_settings:
     display_review: true
 icon_uuid: null

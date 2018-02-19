@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media_browser
+  module:
+    - entity_browser_entity_form
+    - views
+name: iframe
+label: IFrame
+display: iframe
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  d4c3e87b-640f-4b9b-a595-8d5ad3906929:
+    settings:
+      view: media_browser
+      view_display: entity_browser_1
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: d4c3e87b-640f-4b9b-a595-8d5ad3906929
+    weight: 1
+    label: Browse
+    id: view
+  c2821bf4-7084-486b-aeff-2a9630187015:
+    settings:
+      entity_type: media
+      bundle: ''
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: c2821bf4-7084-486b-aeff-2a9630187015
+    weight: 2
+    label: 'Download image'
+    id: entity_form
+  16f4d310-1d33-46e3-b365-bd644fb040af:
+    settings:
+      entity_type: media
+      bundle: video
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: 16f4d310-1d33-46e3-b365-bd644fb040af
+    weight: 3
+    label: 'Download video'
+    id: entity_form
