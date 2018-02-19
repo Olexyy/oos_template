@@ -4,17 +4,10 @@ namespace Drupal\oos_blocks\Plugin\Block;
 
 
 use Drupal\Component\Utility\Html;
-use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\Cache;
-use Drupal\Core\Datetime\DrupalDateTime;
-use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Form\SubformStateInterface;
-use Drupal\Core\Image\Image;
-use Drupal\Core\Url;
-use Drupal\entity_browser\Element\EntityBrowserElement;
-use Drupal\file\Entity\File;
 use Drupal\media\Entity\Media;
 
 /**
@@ -28,12 +21,17 @@ use Drupal\media\Entity\Media;
 
 class ParallaxImage extends BlockBase {
 
-
+  /**
+   * {@inheritdoc}
+   */
   public function defaultConfiguration() {
-      return ['media' => ''] + parent::defaultConfiguration();
+    return [
+      'media' => '',
+      'text' => 'Вас вітає садок Святого Миколая!',
+    ] + parent::defaultConfiguration();
   }
 
-    /**
+  /**
    * {@inheritdoc}
    */
   public function blockForm($form, FormStateInterface $form_state) {
@@ -56,6 +54,12 @@ class ParallaxImage extends BlockBase {
         $uri = $image->getFileUri();
       }
     }
+    $form['text'] = [
+      '#type' => 'textfield',
+      '#title' => $this->t('Input text.'),
+      '#description' => $this->t('This text will be set in middle of parallax.'),
+      '#default_value' => $this->configuration['text'],
+    ];
     $form['selected'] = [
       '#type' => 'container',
       'thumbnail' => [
@@ -86,7 +90,6 @@ class ParallaxImage extends BlockBase {
         [get_called_class(), 'processEntityBrowser'],
       ],
     ];
-    //$form['#attached']['library'][] = 'entity_browser/entity_reference';
     return $form;
   }
 
@@ -103,10 +106,6 @@ class ParallaxImage extends BlockBase {
    * AJAX form callback.
    */
   public static function updateWidgetCallback(array &$form, FormStateInterface $form_state) {
-    $trigger = $form_state->getTriggeringElement();
-    if (!empty($trigger['#ajax']['event']) && $trigger['#ajax']['event'] == 'entity_browser_value_updated') {
-      return $form['settings']['selected']['thumbnail'];
-    }
     return $form['selected']['thumbnail'];
   }
 
@@ -120,6 +119,7 @@ class ParallaxImage extends BlockBase {
       if ($settings['selected']['target_id']) {
         $this->configuration['media'] = explode(':', $settings['selected']['target_id'])[1];
       }
+      $this->configuration['text'] = $settings['text'];
       $newCacheTag = $this->getCacheTag($settings);
       if ($existingCacheTag != $newCacheTag) {
         Cache::invalidateTags([$existingCacheTag]);
@@ -158,19 +158,19 @@ class ParallaxImage extends BlockBase {
         'parallax-text' => [
           '#type' => 'html_tag',
           '#tag' => 'div',
-          '#value' => 'Вас вітає Садок Святого Миколая!',
+          '#value' => $this->configuration['text'],
           '#attributes' => [
             'class' => [
               'parallax-text',
             ],
             'style' => "text-align: center;
-                        margin-top: calc(100vw * 0.2);
-                        background-color: rgba(0, 0, 0, 0.3);
-                        padding: 15px;
-                        display: inline-block;
-                        color: #c9f01a;
-                        font-size: 25px;
-                        font-weight: bold;",
+              margin-top: calc(100vw * 0.2);
+              background-color: rgba(0, 0, 0, 0.3);
+              padding: 15px;
+              display: inline-block;
+              color: #c9f01a;
+              font-size: 25px;
+              font-weight: bold;",
           ],
         ],
         '#attributes' => [
