@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: teachers
+label: Teachers
+description: Teachers.
+use_admin_theme: false
+path: /teachers
+access_logic: and
+access_conditions: {  }
+parameters: {  }

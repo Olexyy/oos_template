@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media_browser
+  module:
+    - entity_browser_entity_form
+    - views
+name: modal
+label: Modal
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  34e8e2ec-e7ba-4236-85c6-f480b16a18fe:
+    settings:
+      view: media_browser
+      view_display: entity_browser_1
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: 34e8e2ec-e7ba-4236-85c6-f480b16a18fe
+    weight: 1
+    label: Browse
+    id: view
+  7ee2a62f-f363-42ff-865c-44c9ea092bd1:
+    settings:
+      entity_type: media
+      bundle: image
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: 7ee2a62f-f363-42ff-865c-44c9ea092bd1
+    weight: 2
+    label: 'Download image'
+    id: entity_form
+  5c764e41-d520-4538-b772-f7432f2bae16:
+    settings:
+      entity_type: media
+      bundle: video
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: 5c764e41-d520-4538-b772-f7432f2bae16
+    weight: 3
+    label: 'Download video'
+    id: entity_form

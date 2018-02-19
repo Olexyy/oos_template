@@ -1,6 +1,7 @@
 excluded:
-  - node.type.article
   - views.view.frontpage
   - block.block.bartik_footer
   - block.block.bartik_main_menu
+  - core.base_field_override.node.group.promote
+  - core.base_field_override.node.page.promote
 required: true
