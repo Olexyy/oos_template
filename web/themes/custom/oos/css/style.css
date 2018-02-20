@@ -6391,6 +6391,19 @@ body.toolbar-loading {
       background: #337ab7;
       color: #fff; }
 
+.block-views-blockgroups-active-groups {
+  text-align: center; }
+  .block-views-blockgroups-active-groups .views-col {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    padding: 0.5%;
+    margin: 0.5%;
+    width: 32% !important; }
+    .block-views-blockgroups-active-groups .views-col a {
+      font-size: x-large; }
+  .block-views-blockgroups-active-groups .views-col:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
 ol, ul {
   padding-left: 1.5em; }
   .popover ol:last-child, .popover ul:last-child {

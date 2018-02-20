@@ -18,21 +18,21 @@ variant_settings:
       label: 'User login'
       provider: user
       label_display: '0'
-      region: top
-      weight: 2
+      region: main
+      weight: 1
       uuid: fa186390-fe83-4fe6-95ab-04af3e553108
       context_mapping: {  }
-    10ec8ee4-02e2-4be5-a9a1-cabc6c9a49fb:
-      id: 'views_block:groups-block_1'
+    7f8012ac-37a0-4529-a3b1-e6a504378f49:
+      id: 'views_block:groups-active_groups'
       label: ''
       provider: views
-      label_display: visible
+      label_display: '0'
       views_label: ''
       items_per_page: none
+      region: main
+      weight: 0
+      uuid: 7f8012ac-37a0-4529-a3b1-e6a504378f49
       context_mapping: {  }
-      region: top
-      uuid: 10ec8ee4-02e2-4be5-a9a1-cabc6c9a49fb
-      weight: 1
   id: panels_variant
   uuid: e1d0617f-13ff-4e75-8ce9-219b5f61aee0
   label: null

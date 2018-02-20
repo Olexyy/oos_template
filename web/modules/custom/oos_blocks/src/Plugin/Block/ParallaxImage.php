@@ -169,7 +169,7 @@ class ParallaxImage extends BlockBase {
               padding: 15px;
               display: inline-block;
               color: #c9f01a;
-              font-size: 25px;
+              font-size: 35px;
               font-weight: bold;",
           ],
         ],
