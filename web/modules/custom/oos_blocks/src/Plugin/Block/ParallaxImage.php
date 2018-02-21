@@ -164,7 +164,7 @@ class ParallaxImage extends BlockBase {
               'parallax-text',
             ],
             'style' => "text-align: center;
-              margin-top: calc(100vw * 0.2);
+              margin-top: calc(100vw * 0.14);
               background-color: rgba(0, 0, 0, 0.3);
               padding: 15px;
               display: inline-block;
