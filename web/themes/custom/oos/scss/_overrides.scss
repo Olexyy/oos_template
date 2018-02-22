@@ -19,7 +19,8 @@
 @import "component/menus";
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
-@import "component/active_groups";
+@import "component/views_grid";
+@import "component/box-shadow";
 
 ol, ul {
   padding-left: 1.5em;

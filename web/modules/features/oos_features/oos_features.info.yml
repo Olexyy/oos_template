@@ -44,4 +44,5 @@ dependencies:
   - video_embed_media
   - video_embed_wysiwyg
   - views
+  - views_fieldsets
 version: 8.x-1.0

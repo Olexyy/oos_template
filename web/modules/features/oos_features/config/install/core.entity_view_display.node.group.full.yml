@@ -1,0 +1,127 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.group.body
+    - field.field.node.group.field_date
+    - field.field.node.group.field_group_name
+    - node.type.group
+  module:
+    - datetime
+    - field_layout
+    - layout_discovery
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  panelizer:
+    enable: true
+    custom: false
+    allow: false
+    default: default
+    displays:
+      default:
+        blocks:
+          aa8308eb-f7b4-405f-817f-279699d17db7:
+            id: 'entity_field:node:body'
+            label: Body
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: text_default
+              settings: {  }
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: main
+            weight: 2
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: aa8308eb-f7b4-405f-817f-279699d17db7
+          e9978d32-e87e-4e72-bde4-05fa11e1f15d:
+            id: 'entity_field:node:field_date'
+            label: Date
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: datetime_custom
+              settings:
+                timezone_override: ''
+                date_format: 'Y'
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: main
+            weight: 1
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: e9978d32-e87e-4e72-bde4-05fa11e1f15d
+          adddadd0-8dbd-4d14-b39e-3701689b7d0d:
+            id: 'entity_field:node:field_group_name'
+            label: 'Group name'
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: entity_reference_label
+              settings:
+                link: false
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: main
+            weight: 0
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: adddadd0-8dbd-4d14-b39e-3701689b7d0d
+        id: panels_variant
+        label: Default
+        uuid: a1b7f668-7a53-44d2-9a48-268f3e2f9566
+        weight: 0
+        layout: bs_1col_stacked
+        layout_settings: {  }
+        page_title: '[node:title]'
+        storage_type: panelizer_default
+        storage_id: 'node:group:default:default'
+        builder: ipe
+        pattern: panelizer
+        static_context: {  }
+id: node.group.full
+targetEntityType: node
+bundle: group
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date:
+    weight: 1
+    label: above
+    settings:
+      timezone_override: ''
+      date_format: 'Y'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_group_name:
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  links: true

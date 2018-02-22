@@ -37,3 +37,10 @@ function oos_base_install() {
     $weight++;
   }
 }
+
+/**
+ * Enable module 'views_fieldsets'.
+ */
+function oos_base_update_8001(){
+  \Drupal::service('module_installer')->install(['views_fieldsets']);
+}
