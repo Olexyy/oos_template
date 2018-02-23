@@ -28,6 +28,7 @@ class ParallaxImage extends BlockBase {
     return [
       'media' => '',
       'text' => 'Вас вітає садок Святого Миколая!',
+      'text_color' => 'yellow',
     ] + parent::defaultConfiguration();
   }
 
@@ -56,9 +57,15 @@ class ParallaxImage extends BlockBase {
     }
     $form['text'] = [
       '#type' => 'textfield',
-      '#title' => $this->t('Input text.'),
+      '#title' => $this->t('Input text'),
       '#description' => $this->t('This text will be set in middle of parallax.'),
       '#default_value' => $this->configuration['text'],
+    ];
+    $form['text_color'] = [
+      '#type' => 'textfield',
+      '#title' => $this->t('Input text color'),
+      '#description' => $this->t('This text color will be applied to text.'),
+      '#default_value' => $this->configuration['text_color'],
     ];
     $form['selected'] = [
       '#type' => 'container',
@@ -151,6 +158,7 @@ class ParallaxImage extends BlockBase {
     if ($media = Media::load($this->configuration['media'])) {
       $image = $media->field_media_image->entity;
       $url = file_create_url($image->getFileUri());
+      $color = $this->configuration['text_color'];
       $content = [
         '#type' => 'html_tag',
         '#tag' => 'div',
@@ -168,10 +176,10 @@ class ParallaxImage extends BlockBase {
               background-color: rgba(0, 0, 0, 0.3);
               padding: 15px;
               display: inline-block;
-              color: #c9f01a;
+              color: {$color};
               font-size: 35px;
               font-weight: bold;",
-          ],
+          ], //#c9f01a;
         ],
         '#attributes' => [
           'class' => ['parallax'],
