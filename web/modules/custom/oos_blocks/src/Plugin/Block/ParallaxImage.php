@@ -28,7 +28,7 @@ class ParallaxImage extends BlockBase {
     return [
       'media' => '',
       'text' => 'Вас вітає садок Святого Миколая!',
-      'text_color' => 'yellow',
+      'text_css' => 'color: yellow;',
     ] + parent::defaultConfiguration();
   }
 
@@ -61,11 +61,11 @@ class ParallaxImage extends BlockBase {
       '#description' => $this->t('This text will be set in middle of parallax.'),
       '#default_value' => $this->configuration['text'],
     ];
-    $form['text_color'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Input text color'),
-      '#description' => $this->t('This text color will be applied to text.'),
-      '#default_value' => $this->configuration['text_color'],
+    $form['text_css'] = [
+      '#type' => 'textarea',
+      '#title' => $this->t('Input text css'),
+      '#description' => $this->t('This text css will be applied to text.'),
+      '#default_value' => $this->configuration['text_css'],
     ];
     $form['selected'] = [
       '#type' => 'container',
@@ -127,6 +127,7 @@ class ParallaxImage extends BlockBase {
         $this->configuration['media'] = explode(':', $settings['selected']['target_id'])[1];
       }
       $this->configuration['text'] = $settings['text'];
+      $this->configuration['text_css'] = $settings['text_css'];
       $newCacheTag = $this->getCacheTag($settings);
       if ($existingCacheTag != $newCacheTag) {
         Cache::invalidateTags([$existingCacheTag]);
@@ -158,7 +159,7 @@ class ParallaxImage extends BlockBase {
     if ($media = Media::load($this->configuration['media'])) {
       $image = $media->field_media_image->entity;
       $url = file_create_url($image->getFileUri());
-      $color = $this->configuration['text_color'];
+      $css = $this->configuration['text_css'];
       $content = [
         '#type' => 'html_tag',
         '#tag' => 'div',
@@ -176,9 +177,10 @@ class ParallaxImage extends BlockBase {
               background-color: rgba(0, 0, 0, 0.3);
               padding: 15px;
               display: inline-block;
-              color: {$color};
-              font-size: 35px;
-              font-weight: bold;",
+              color: white;
+              font-size: 3em;
+              font-weight: bold;
+              $css",
           ], //#c9f01a;
         ],
         '#attributes' => [
