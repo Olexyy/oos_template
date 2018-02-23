@@ -6131,6 +6131,20 @@ header.navbar-default.navbar-fixed-top {
 /**
  * Node styling.
  */
+.node--view-mode-full {
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 10px; }
+  .node--view-mode-full .block-entity-fieldnodetitle {
+    padding: 10px 10px 20px;
+    font-size: x-large;
+    font-weight: bold; }
+  .node--view-mode-full .block-entity-fieldnodefield-related-groups .block-title {
+    padding: 10px;
+    font-size: medium; }
+
 .is-unpublished {
   background-color: #fff4f4; }
 
