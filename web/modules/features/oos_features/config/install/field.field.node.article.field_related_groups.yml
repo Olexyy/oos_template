@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_related_groups
     - node.type.article
+    - node.type.group
 id: node.article.field_related_groups
 field_name: field_related_groups
 entity_type: node
@@ -15,10 +16,12 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: views
+  handler: 'default:node'
   handler_settings:
-    view:
-      view_name: groups
-      display_name: related_groups
-      arguments: {  }
+    target_bundles:
+      group: group
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: article
 field_type: entity_reference
