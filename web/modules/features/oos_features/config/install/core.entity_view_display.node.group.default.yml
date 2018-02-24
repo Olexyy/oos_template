@@ -38,7 +38,7 @@ third_party_settings:
               weight: 0
               region: content
             region: main
-            weight: 2
+            weight: -9
             context_mapping:
               entity: '@panelizer.entity_context:entity'
             uuid: aa8308eb-f7b4-405f-817f-279699d17db7
@@ -56,36 +56,53 @@ third_party_settings:
               third_party_settings: {  }
               weight: 0
               region: content
-            region: main
-            weight: 1
+            region: top
+            weight: 0
             context_mapping:
               entity: '@panelizer.entity_context:entity'
             uuid: e9978d32-e87e-4e72-bde4-05fa11e1f15d
           adddadd0-8dbd-4d14-b39e-3701689b7d0d:
             id: 'entity_field:node:field_group_name'
-            label: 'Group name'
+            label: 'Інші групи з назвою'
             provider: ctools_block
-            label_display: '0'
+            label_display: visible
             formatter:
               label: hidden
               type: entity_reference_label
               settings:
-                link: false
+                link: true
               third_party_settings: {  }
               weight: 0
               region: content
-            region: main
-            weight: 0
+            region: bottom
+            weight: -1
             context_mapping:
               entity: '@panelizer.entity_context:entity'
             uuid: adddadd0-8dbd-4d14-b39e-3701689b7d0d
+          da673831-9b99-43d3-8ddc-1db63101b78c:
+            id: 'entity_field:node:title'
+            label: Title
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+            region: top
+            weight: -1
+            uuid: da673831-9b99-43d3-8ddc-1db63101b78c
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
         id: panels_variant
         label: Default
         uuid: a1b7f668-7a53-44d2-9a48-268f3e2f9566
         weight: 0
         layout: bs_1col_stacked
         layout_settings: {  }
-        page_title: '[node:title]'
+        page_title: ''
         storage_type: panelizer_default
         storage_id: 'node:group:default:default'
         builder: ipe
