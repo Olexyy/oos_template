@@ -92,6 +92,12 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drupal/ctools": {
+                "Custom classes in field block.": "patches/ctools/custom_classes_2947714.patch",
+                "Custom classes in entity block.": "patches/ctools/custom_classes_2947720.patch"
+            }
         }
     }
 }
