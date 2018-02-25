@@ -6141,9 +6141,17 @@ header.navbar-default.navbar-fixed-top {
     padding: 10px 10px 20px;
     font-size: x-large;
     font-weight: bold; }
-  .node--view-mode-full .block-entity-fieldnodefield-related-groups .block-title {
+  .node--view-mode-full .block-entity-fieldnodefield-related-groups .block-title,
+  .node--view-mode-full .block-entity-fieldnodefield-group-name .block-title {
     padding: 10px;
     font-size: medium; }
+  .node--view-mode-full .block-entity-fieldnodefield-date {
+    margin-bottom: 10px;
+    font-style: italic; }
+    .node--view-mode-full .block-entity-fieldnodefield-date .block-title {
+      margin: 0;
+      font-size: medium;
+      font-style: italic; }
 
 .is-unpublished {
   background-color: #fff4f4; }
