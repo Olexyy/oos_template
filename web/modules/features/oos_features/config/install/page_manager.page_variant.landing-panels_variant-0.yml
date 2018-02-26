@@ -4,24 +4,15 @@ dependencies:
   config:
     - page_manager.page.landing
     - views.view.groups
+    - views.view.news
   module:
     - panels
-    - user
     - views
 id: landing-panels_variant-0
 label: Panels
 variant: panels_variant
 variant_settings:
   blocks:
-    fa186390-fe83-4fe6-95ab-04af3e553108:
-      id: user_login_block
-      label: 'User login'
-      provider: user
-      label_display: '0'
-      region: main
-      weight: 1
-      uuid: fa186390-fe83-4fe6-95ab-04af3e553108
-      context_mapping: {  }
     7f8012ac-37a0-4529-a3b1-e6a504378f49:
       id: 'views_block:groups-active_groups'
       label: ''
@@ -32,6 +23,17 @@ variant_settings:
       region: main
       weight: 0
       uuid: 7f8012ac-37a0-4529-a3b1-e6a504378f49
+      context_mapping: {  }
+    d0d123db-e055-47c2-ad23-a9133af41ad1:
+      id: 'views_block:news-block'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: '5'
+      region: main
+      weight: 1
+      uuid: d0d123db-e055-47c2-ad23-a9133af41ad1
       context_mapping: {  }
   id: panels_variant
   uuid: e1d0617f-13ff-4e75-8ce9-219b5f61aee0

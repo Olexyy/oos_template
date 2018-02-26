@@ -38,7 +38,7 @@ third_party_settings:
               third_party_settings: {  }
               weight: 0
               region: content
-            css_classes: ''
+            css_classes: 'lolland ok fucks'
             region: main
             weight: 0
             context_mapping:
@@ -94,7 +94,7 @@ third_party_settings:
                 link_to_entity: false
               third_party_settings: {  }
               weight: 0
-            css_classes: ''
+            css_classes: 'lolland ok fucks'
             region: top
             weight: 0
             uuid: bca891e1-cef6-49f8-b4d8-9498885fb2ca
