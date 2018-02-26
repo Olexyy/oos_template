@@ -97,6 +97,9 @@
             "drupal/ctools": {
                 "Custom classes in field block.": "patches/ctools/custom_classes_2947714.patch",
                 "Custom classes in entity block.": "patches/ctools/custom_classes_2947720.patch"
+            },
+            "drupal/features": {
+                "Drush 9 support" : "patches/features/2913651-drush9-21.patch"
             }
         }
     }
