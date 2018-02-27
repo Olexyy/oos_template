@@ -1,6 +1,29 @@
-.views-grid-row {
+.latest-groups {
+  margin: 20px 0;
   text-align: center;
   a {
-    font-size: x-large;
+    font-size: $font-x-large;
+  }
+  h2 {
+    font-size: $font-large;
+    margin: 0;
+  }
+}
+
+.latest-news {
+  margin: 5px 0;
+  &:before {
+    content: "";
+    border: $color-green3 solid 7px;
+    position: relative;
+    top: 37px;
+    font-size: $font-x-large;
+  }
+  h3 {
+    font-size: $font-x-large;
+    margin: 0 0 0 20px;
+  }
+  .views-field-body {
+    margin: 10px 0;
   }
 }

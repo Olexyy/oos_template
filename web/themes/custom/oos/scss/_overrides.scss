@@ -20,7 +20,7 @@
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
 @import "component/views_grid";
-@import "component/box-shadow";
+@import "component/box";
 
 ol, ul {
   padding-left: 1.5em;
@@ -61,5 +61,12 @@ p:last-child,
   padding: 0;
   &:first-child {
     margin-top: 0;
+  }
+}
+
+a {
+  color: $color-green3;
+  &:hover {
+    color: $color-green1;
   }
 }

@@ -6141,8 +6141,7 @@ header.navbar-default.navbar-fixed-top {
     padding: 10px 10px 20px;
     font-size: x-large;
     font-weight: bold; }
-  .node--view-mode-full .block-entity-fieldnodefield-related-groups .block-title,
-  .node--view-mode-full .block-entity-fieldnodefield-group-name .block-title {
+  .node--view-mode-full .block-entity-fieldnodefield-related-groups .block-title {
     padding: 10px;
     font-size: medium; }
   .node--view-mode-full .block-entity-fieldnodefield-date {
@@ -6413,10 +6412,28 @@ body.toolbar-loading {
       background: #337ab7;
       color: #fff; }
 
-.views-grid-row {
+.latest-groups {
+  margin: 20px 0;
   text-align: center; }
-  .views-grid-row a {
+  .latest-groups a {
     font-size: x-large; }
+  .latest-groups h2 {
+    font-size: large;
+    margin: 0; }
+
+.latest-news {
+  margin: 5px 0; }
+  .latest-news:before {
+    content: "";
+    border: #9ab806 solid 7px;
+    position: relative;
+    top: 37px;
+    font-size: x-large; }
+  .latest-news h3 {
+    font-size: x-large;
+    margin: 0 0 0 20px; }
+  .latest-news .views-field-body {
+    margin: 10px 0; }
 
 .box-shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -6424,6 +6441,12 @@ body.toolbar-loading {
 
 .box-shadow:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.padding-5 {
+  padding: 5px; }
+
+.padding-10 {
+  padding: 10px; }
 
 ol, ul {
   padding-left: 1.5em; }
@@ -6453,3 +6476,8 @@ p:last-child,
   padding: 0; }
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
+
+a {
+  color: #9ab806; }
+  a:hover {
+    color: #c9f01a; }

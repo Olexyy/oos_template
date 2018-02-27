@@ -63,9 +63,9 @@ display:
           automatic_width: false
           alignment: horizontal
           col_class_default: false
-          col_class_custom: 'col-xs-12 col-sm-4 col-md-4 views-grid-col'
+          col_class_custom: 'col-xs-12 col-sm-4 col-md-4'
           row_class_default: false
-          row_class_custom: views-grid-row
+          row_class_custom: latest-groups
       row:
         type: fields
         options:
@@ -128,7 +128,7 @@ display:
             - field_date
           wrapper: div
           legend: ''
-          classes: box-shadow
+          classes: 'box-shadow  padding-10'
           collapsible: 0
           collapsed: 0
           plugin_id: fieldset
