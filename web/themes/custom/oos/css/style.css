@@ -6421,17 +6421,23 @@ body.toolbar-loading {
     font-size: large;
     margin: 0; }
 
+.block-views-blocknews-block .view-header {
+  margin: 20px 40px; }
+  .block-views-blocknews-block .view-header a {
+    font-size: x-large; }
+
 .latest-news {
   margin: 5px 0; }
-  .latest-news:before {
+  .latest-news .views-field-title .field-content {
+    font-size: x-large;
+    margin: -33px 0 0 10px; }
+  .latest-news .views-field-title:before {
     content: "";
     border: #9ab806 solid 7px;
     position: relative;
-    top: 37px;
-    font-size: x-large; }
-  .latest-news h3 {
     font-size: x-large;
-    margin: 0 0 0 20px; }
+    top: -7px;
+    left: -10px; }
   .latest-news .views-field-body {
     margin: 10px 0; }
 

@@ -404,12 +404,26 @@ display:
           expose:
             label: ''
           granularity: second
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<a href="/news">Останні новини</a>'
+            format: basic_html
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      title: ''
     cache_metadata:
       max-age: -1
       contexts:
