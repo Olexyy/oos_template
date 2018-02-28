@@ -10,7 +10,9 @@ use Drupal\menu_link_content\Entity\MenuLinkContent;
 function oos_base_install() {
   \Drupal::service('theme_installer')->install(['oos']);
   \Drupal::service('theme_handler')->setDefault('oos');
-  \Drupal::service('theme_installer')->uninstall(['bartik']);
+  if (\Drupal::service('theme_handler')->themeExists('bartik')) {
+    \Drupal::service('theme_installer')->uninstall(['bartik']);
+  }
   // Set front page to "/landing", see oos_features.
   \Drupal::configFactory()
     ->getEditable('system.site')
