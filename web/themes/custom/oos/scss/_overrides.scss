@@ -70,3 +70,13 @@ a {
     color: $color-green1;
   }
 }
+.active {
+  a {
+    background-color: transparent !important;
+    color: $color-green2;
+    &:hover {
+      background-color: transparent !important;
+      color: $color-green1;
+    }
+  }
+}

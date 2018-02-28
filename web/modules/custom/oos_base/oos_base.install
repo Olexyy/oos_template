@@ -21,6 +21,7 @@ function oos_base_install() {
     'Новини' => '/news',
     'Групи' => '/groups',
     'Вихователі' => '/teachers',
+    'Батькам' => '/parents',
     'Про садок' => '/about',
   ];
   $weight = 1;
@@ -41,6 +42,13 @@ function oos_base_install() {
 /**
  * Enable module 'views_fieldsets'.
  */
-function oos_base_update_8001(){
+function oos_base_update_8001() {
   \Drupal::service('module_installer')->install(['views_fieldsets']);
+}
+
+/**
+ * Enable module 'simple_gmap'.
+ */
+function oos_base_update_8002() {
+  \Drupal::service('module_installer')->install(['simple_gmap']);
 }

@@ -6487,3 +6487,10 @@ a {
   color: #9ab806; }
   a:hover {
     color: #c9f01a; }
+
+.active a {
+  background-color: transparent !important;
+  color: #a3d615; }
+  .active a:hover {
+    background-color: transparent !important;
+    color: #c9f01a; }

@@ -3,50 +3,42 @@ status: true
 dependencies:
   config:
     - page_manager.page.about
+    - views.view.site_provider
   module:
+    - oos_blocks
     - panels
+    - views
 id: about-panels_variant-0
 label: Panels
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    ab627652-b497-4c10-896c-d385ff64b707:
+      id: 'views_block:site_provider-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: ab627652-b497-4c10-896c-d385ff64b707
+      context_mapping: {  }
+    58e20585-c37e-4101-a3dc-9d48ccb482a7:
+      id: google_map
+      label: 'Google map'
+      provider: oos_blocks
+      label_display: '0'
+      region: main
+      weight: 1
+      uuid: 58e20585-c37e-4101-a3dc-9d48ccb482a7
+      context_mapping: {  }
   id: panels_variant
   uuid: 6ceda29a-c6ae-413e-9ba1-3995a8644878
   label: null
   weight: 0
-  layout: bs_4col
-  layout_settings:
-    layout:
-      wrapper: div
-      classes:
-        row: row
-      add_layout_class: 1
-      attributes: ''
-    regions:
-      first:
-        wrapper: div
-        classes:
-          col-sm-3: col-sm-3
-        add_region_classes: 1
-        attributes: ''
-      second:
-        wrapper: div
-        classes:
-          col-sm-3: col-sm-3
-        add_region_classes: 1
-        attributes: ''
-      third:
-        wrapper: div
-        classes:
-          col-sm-3: col-sm-3
-        add_region_classes: 1
-        attributes: ''
-      fourth:
-        wrapper: div
-        classes:
-          col-sm-3: col-sm-3
-        add_region_classes: 1
-        attributes: ''
+  layout: bs_1col_stacked
+  layout_settings: {  }
   page_title: ''
   storage_type: page_manager
   storage_id: about-panels_variant-0
