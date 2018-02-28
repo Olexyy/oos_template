@@ -8,3 +8,4 @@ dependencies:
  - media
  - entity_browser
  - simple_gmap
+ - field
