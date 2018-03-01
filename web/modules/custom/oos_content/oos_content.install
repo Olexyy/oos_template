@@ -1,0 +1,60 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function oos_content_uninstall() {
+  $entity_type_manager = \Drupal::entityTypeManager();
+  $contents = [
+    'menu_link_content' => [
+      '0dce0f92-1bf5-407c-a108-5bc22063d7d7',
+      '9c327e19-8ecc-4583-aa22-38ff9b0ac9dd',
+      '25e56fdd-24c5-43fa-8807-08f6b4ba083a',
+      'd90ccfd4-2330-4db3-ae22-237686a07f1c',
+      'e1be913f-2e7a-44ed-b9f5-8ed81f401c0c',
+    ],
+    'node' => [
+      '8c3246ec-6143-4609-a717-128f1aec4e83',
+      '44e6be05-6fa9-4fc2-8c67-b395242d1bf3',
+      '53aa21a2-d3e1-4028-baf0-d3a54bc416b1',
+      '72ef359c-2ef3-4002-97a7-e7cec6c26648',
+      '51649201-e0d5-42ed-89cd-5e7497b2c304',
+      'b5407690-e364-49dd-8ce9-fb5d6d704a85',
+      'cedb48dc-7514-472e-8678-01980efdfb17',
+    ],
+    'taxonomy_term' => [
+      '0d767cc0-7324-4a79-8def-5401baaddb03',
+      'adaaa885-4990-40ec-8ce8-625f4f6e24d1',
+      'bc2f1e23-5be1-453a-b7e6-3481775450d4',
+    ],
+  ];
+  try {
+    foreach ($contents as $type => $uuids) {
+      $entity_storage = $entity_type_manager->getStorage($type);
+      foreach ($uuids as $uuid) {
+        if ($entity = $entity_storage->loadByProperties(['uuid' => $uuid])) {
+          $entity = reset($entity);
+          $entity->delete();
+        }
+      }
+    }
+  }
+  catch (\Exception $exception) {
+    \Drupal::logger('oos_base')
+      ->error($exception->getMessage() . $exception->getTraceAsString());
+  }
+}
+
+/**
+ * Enable module 'views_fieldsets'.
+ */
+function oos_base_update_8001() {
+  \Drupal::service('module_installer')->install(['views_fieldsets']);
+}
+
+/**
+ * Enable module 'simple_gmap'.
+ */
+function oos_base_update_8002() {
+  \Drupal::service('module_installer')->install(['simple_gmap']);
+}

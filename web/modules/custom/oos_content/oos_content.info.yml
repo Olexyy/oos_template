@@ -1,0 +1,8 @@
+name: OOS content
+type: module
+description: 'OOS content.'
+package: oos
+core: 8.x
+
+dependencies:
+  - oos_features

@@ -2,6 +2,7 @@ name: 'OOS Features'
 description: 'OOS Features'
 type: module
 core: 8.x
+package: oos
 dependencies:
   - block
   - bootstrap_layouts

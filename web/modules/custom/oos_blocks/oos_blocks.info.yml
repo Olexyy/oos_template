@@ -1,7 +1,7 @@
 name: OOS blocks
 type: module
 description: 'OOS blocks.'
-package: custom
+package: oos
 core: 8.x
 
 dependencies:

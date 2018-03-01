@@ -1,7 +1,7 @@
 name: OOS base
 type: module
 description: 'OOS base.'
-package: custom
+package: oos
 core: 8.x
 
 dependencies:
