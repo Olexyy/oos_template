@@ -19,7 +19,7 @@ function oos_base_install() {
     ->set('page.front', '/landing')
     ->set('mail', 'dnz.135.lviv@gmail.com')
     ->save(TRUE);
-  $items = [
+  /*$items = [
     'Новини' => '/news',
     'Групи' => '/groups',
     'Вихователі' => '/teachers',
@@ -38,7 +38,7 @@ function oos_base_install() {
     ]);
     $menu_link->save();
     $weight++;
-  }
+  }*/
 }
 
 /**
