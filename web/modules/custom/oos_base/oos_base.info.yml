@@ -6,4 +6,3 @@ core: 8.x
 
 dependencies:
   - oos_features
-  - oos_content

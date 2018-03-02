@@ -7,9 +7,9 @@ dependencies:
     - field.field.node.group.field_group_name
     - node.type.group
   module:
-    - datetime
     - field_layout
     - layout_discovery
+    - oos_blocks
     - path
     - text
 third_party_settings:
@@ -43,7 +43,7 @@ content:
       date_order: YMD
       time_type: '24'
     third_party_settings: {  }
-    type: datetime_datelist
+    type: datetime_year_list
     region: content
   field_group_name:
     weight: 122

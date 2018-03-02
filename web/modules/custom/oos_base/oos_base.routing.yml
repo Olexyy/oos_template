@@ -1,0 +1,6 @@
+oos_base.revert_content:
+  path: '/revert_content'
+  defaults:
+    _controller: \Drupal\oos_base\Controller\Controller::revertContent
+  requirements:
+    _permission: 'administer site configuration'
