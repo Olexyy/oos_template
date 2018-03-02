@@ -26,6 +26,7 @@ dependencies:
   - layout_discovery
   - media
   - menu_ui
+  - metatag
   - node
   - oos_blocks
   - options

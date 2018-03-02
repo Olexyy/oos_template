@@ -46,7 +46,8 @@
         "drupal/video_embed_field": "^2.0-alpha2",
         "drupal/inline_entity_form": "^1.0-beta1",
         "drupal/views_fieldsets": "^3.3",
-        "drupal/simple_gmap": "^1.4"
+        "drupal/simple_gmap": "^1.4",
+        "drupal/metatag":"^1.4"
     },
     "require-dev": {
         "behat/mink": "~1.7",

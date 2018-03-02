@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  description: 'дитячий садок днз 135 львів садок Св. Миколая'
+  title: '[current-page:title] | [site:name]'

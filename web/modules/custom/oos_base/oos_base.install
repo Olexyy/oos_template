@@ -30,3 +30,10 @@ function oos_base_update_8001() {
 function oos_base_update_8002() {
   \Drupal::service('module_installer')->install(['simple_gmap']);
 }
+
+/**
+ * Enable module 'metatag'.
+ */
+function oos_base_update_8003() {
+  \Drupal::service('module_installer')->install(['metatag']);
+}
