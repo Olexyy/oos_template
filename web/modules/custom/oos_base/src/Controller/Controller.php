@@ -45,7 +45,11 @@ class Controller extends ControllerBase {
     try {
       $modules = ['oos_content'];
       $this->moduleInstaller->uninstall($modules);
+      $this->getLogger('oos_base')
+        ->info('Uninstalled module "oos_content"');
       $this->moduleInstaller->install($modules, TRUE);
+      $this->getLogger('oos_base')
+        ->info('Installed module "oos_content"');
       return $this->redirect('<front>');
     } catch (\Exception $exception) {
       throw new AccessException();
