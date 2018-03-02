@@ -21,6 +21,7 @@
 @import "jquery-ui/autocomplete";
 @import "component/views_grid";
 @import "component/box";
+@import "component/ckeditor";
 
 ol, ul {
   padding-left: 1.5em;
@@ -53,7 +54,6 @@ p:last-child,
   }
 }
 
-
 .help-block, .control-group .help-inline {
   color: $gray-light;
   font-size: 12px;
@@ -70,6 +70,7 @@ a {
     color: $color-green1;
   }
 }
+
 .active {
   a {
     background-color: transparent !important;

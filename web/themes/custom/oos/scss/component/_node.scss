@@ -16,7 +16,8 @@
   .field--name-body {
 
   }
-  .block-entity-fieldnodefield-related-groups {
+  .block-entity-fieldnodefield-related-groups,
+  .block-entity-fieldnodefield-group-name {
     .block-title {
       padding: 10px;
       font-size: medium;
@@ -45,6 +46,4 @@
   padding: ($grid-gutter-width / 2);
 }
 
-p {
-  word-wrap: break-word;
-}
+

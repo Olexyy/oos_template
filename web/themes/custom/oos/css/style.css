@@ -6141,7 +6141,8 @@ header.navbar-default.navbar-fixed-top {
     padding: 10px 10px 20px;
     font-size: x-large;
     font-weight: bold; }
-  .node--view-mode-full .block-entity-fieldnodefield-related-groups .block-title {
+  .node--view-mode-full .block-entity-fieldnodefield-related-groups .block-title,
+  .node--view-mode-full .block-entity-fieldnodefield-group-name .block-title {
     padding: 10px;
     font-size: medium; }
   .node--view-mode-full .block-entity-fieldnodefield-date {
@@ -6160,9 +6161,6 @@ header.navbar-default.navbar-fixed-top {
 
 .node-preview-form-select {
   padding: 15px; }
-
-p {
-  word-wrap: break-word; }
 
 /**
  * Panel styling.
@@ -6453,6 +6451,12 @@ body.toolbar-loading {
 
 .padding-10 {
   padding: 10px; }
+
+p {
+  word-wrap: break-word; }
+
+.embedded-entity.align-center img {
+  margin: 0 auto; }
 
 ol, ul {
   padding-left: 1.5em; }
