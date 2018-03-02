@@ -200,6 +200,7 @@ class ParallaxImage extends BlockBase {
             background-attachment: fixed;
             background-position: center;
             background-repeat: repeat;
+            background-size: cover;
             top: -50px;
             text-align: center;
             {$imageCss}",
