@@ -17,6 +17,7 @@
     }
   }
 }
+
 .latest-news {
   margin: 5px 0;
   .views-field-title {
@@ -35,5 +36,12 @@
   }
   .views-field-body {
     margin: 10px 0;
+  }
+  .views-field-changed,
+  .views-field-created {
+    margin: 5px 0 0;
+    span {
+      font-style: italic;
+    }
   }
 }

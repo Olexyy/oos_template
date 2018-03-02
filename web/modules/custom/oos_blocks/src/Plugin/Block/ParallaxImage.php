@@ -190,8 +190,7 @@ class ParallaxImage extends BlockBase {
             height: calc(100vw * 0.5);
             background-attachment: fixed;
             background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-repeat: repeat;
             top: -50px;
             text-align: center;",
         ],
