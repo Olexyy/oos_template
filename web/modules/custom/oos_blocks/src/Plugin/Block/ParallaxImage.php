@@ -29,6 +29,7 @@ class ParallaxImage extends BlockBase {
       'media' => '',
       'text' => 'Вас вітає садок Святого Миколая!',
       'text_css' => 'color: yellow;',
+      'image_css' => '',
     ] + parent::defaultConfiguration();
   }
 
@@ -64,8 +65,14 @@ class ParallaxImage extends BlockBase {
     $form['text_css'] = [
       '#type' => 'textarea',
       '#title' => $this->t('Input text css'),
-      '#description' => $this->t('This text css will be applied to text.'),
+      '#description' => $this->t('This css will be applied to text.'),
       '#default_value' => $this->configuration['text_css'],
+    ];
+    $form['image_css'] = [
+      '#type' => 'textarea',
+      '#title' => $this->t('Input image css'),
+      '#description' => $this->t('This css will be applied to image.'),
+      '#default_value' => $this->configuration['image_css'],
     ];
     $form['selected'] = [
       '#type' => 'container',
@@ -128,6 +135,7 @@ class ParallaxImage extends BlockBase {
       }
       $this->configuration['text'] = $settings['text'];
       $this->configuration['text_css'] = $settings['text_css'];
+      $this->configuration['image_css'] = $settings['image_css'];
       $newCacheTag = $this->getCacheTag($settings);
       if ($existingCacheTag != $newCacheTag) {
         Cache::invalidateTags([$existingCacheTag]);
@@ -159,7 +167,8 @@ class ParallaxImage extends BlockBase {
     if ($media = Media::load($this->configuration['media'])) {
       $image = $media->field_media_image->entity;
       $url = file_create_url($image->getFileUri());
-      $css = $this->configuration['text_css'];
+      $textCss = $this->configuration['text_css'];
+      $imageCss = $this->configuration['image_css'];
       $content = [
         '#type' => 'html_tag',
         '#tag' => 'div',
@@ -180,7 +189,7 @@ class ParallaxImage extends BlockBase {
               color: white;
               font-size: 3em;
               font-weight: bold;
-              $css",
+              {$textCss}",
           ], //#c9f01a;
         ],
         '#attributes' => [
@@ -192,7 +201,8 @@ class ParallaxImage extends BlockBase {
             background-position: center;
             background-repeat: repeat;
             top: -50px;
-            text-align: center;",
+            text-align: center;
+            {$imageCss}",
         ],
       ];
       return $content;
