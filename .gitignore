@@ -13,6 +13,8 @@
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
+# Include folders of export
+!/web/sites/default/files/2018-02
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
