@@ -5,7 +5,7 @@ smtp_encryption: ssl
 smtp_credential_provider: swiftmailer
 smtp_credentials:
   swiftmailer:
-    username: dnz.135.lviv@gmail.com
+    username: dnz.135.mailer@gmail.com
     password: Aa111!Aa
 sendmail_path: /usr/sbin/sendmail
 sendmail_mode: bs
