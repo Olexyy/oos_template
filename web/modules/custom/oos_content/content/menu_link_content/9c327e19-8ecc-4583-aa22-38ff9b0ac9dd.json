@@ -30,13 +30,13 @@
     ],
     "title": [
         {
-            "value": "\u0412\u0438\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u0456",
+            "value": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430",
             "lang": "en"
         }
     ],
     "description": [
         {
-            "value": "\u0412\u0438\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u0456",
+            "value": "\u041e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0439\u043d\u0430 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430.",
             "lang": "en"
         }
     ],
@@ -47,8 +47,8 @@
     ],
     "link": [
         {
-            "uri": "internal:\/teachers",
-            "title": null,
+            "uri": "internal:\/structure",
+            "title": "",
             "options": []
         }
     ],
@@ -79,7 +79,7 @@
     ],
     "changed": [
         {
-            "value": "2018-02-28T22:45:46+00:00",
+            "value": "2018-03-03T15:37:06+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -88,6 +88,15 @@
         {
             "value": true,
             "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Site name",
+                "canonical_url": "http:\/\/default\/%3Cnone%3E",
+                "description": "\u0434\u0438\u0442\u044f\u0447\u0438\u0439 \u0441\u0430\u0434\u043e\u043a \u0434\u043d\u0437 135 \u043b\u044c\u0432\u0456\u0432 \u0441\u0430\u0434\u043e\u043a \u0421\u0432. \u041c\u0438\u043a\u043e\u043b\u0430\u044f"
+            }
         }
     ]
 }

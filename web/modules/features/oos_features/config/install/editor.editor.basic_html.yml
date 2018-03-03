@@ -20,6 +20,16 @@ settings:
             - Strike
             - RemoveFormat
         -
+          name: Positioning
+          items:
+            - JustifyRight
+            - JustifyCenter
+            - JustifyLeft
+            - JustifyBlock
+            - Outdent
+            - Indent
+            - HorizontalRule
+        -
           name: Linking
           items:
             - DrupalLink
@@ -38,22 +48,10 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
-            - Styles
         -
           name: Tools
           items:
             - Source
-      -
-        -
-          name: Positioning
-          items:
-            - JustifyRight
-            - JustifyCenter
-            - JustifyLeft
-            - JustifyBlock
-            - Outdent
-            - Indent
-            - HorizontalRule
   plugins:
     stylescombo:
       styles: ''

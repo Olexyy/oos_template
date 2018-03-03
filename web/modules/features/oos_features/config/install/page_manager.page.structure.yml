@@ -1,11 +1,11 @@
 langcode: en
 status: true
 dependencies: {  }
-id: teachers
-label: Teachers
-description: Teachers.
+id: structure
+label: Structure
+description: Structure.
 use_admin_theme: false
-path: /teachers
+path: /structure
 access_logic: and
 access_conditions: {  }
 parameters: {  }

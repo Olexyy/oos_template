@@ -3,13 +3,26 @@ status: true
 dependencies:
   config:
     - page_manager.page.groups
+    - views.view.groups
   module:
     - panels
+    - views
 id: groups-panels_variant-0
 label: Panels
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    ef96272e-bcc4-4780-bc1c-f9d1c5ebd2fc:
+      id: 'views_block:groups-general_list'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: ef96272e-bcc4-4780-bc1c-f9d1c5ebd2fc
+      context_mapping: {  }
   id: panels_variant
   uuid: 97826c98-5d25-49c9-a0ad-4236a41a638e
   label: null

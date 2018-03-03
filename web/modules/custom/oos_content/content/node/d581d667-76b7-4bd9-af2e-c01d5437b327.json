@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/en\/node\/7?_format=hal_json"
+            "href": "http:\/\/default\/node\/11?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
@@ -14,29 +14,29 @@
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
             {
                 "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
-                "lang": "en"
+                "lang": "uk"
             }
         ]
     },
     "nid": [
         {
-            "value": 7
+            "value": 11
         }
     ],
     "uuid": [
         {
-            "value": "51649201-e0d5-42ed-89cd-5e7497b2c304"
+            "value": "d581d667-76b7-4bd9-af2e-c01d5437b327"
         }
     ],
     "vid": [
         {
-            "value": 57
+            "value": 65
         }
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "uk",
+            "lang": "uk"
         }
     ],
     "type": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-02-28T21:49:30+00:00",
+            "value": "2018-03-03T20:45:33+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -83,33 +83,33 @@
                         "value": "217d426c-c8c1-4527-94e0-e09052bb159d"
                     }
                 ],
-                "lang": "en"
+                "lang": "uk"
             }
         ]
     },
     "status": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "title": [
         {
-            "value": "\u041f\u0440\u043e \u0441\u0430\u0434\u043e\u043a",
-            "lang": "en"
+            "value": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430",
+            "lang": "uk"
         }
     ],
     "created": [
         {
-            "value": "2018-02-28T20:54:17+00:00",
-            "lang": "en",
+            "value": "2018-03-03T20:44:08+00:00",
+            "lang": "uk",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-02-28T21:49:30+00:00",
-            "lang": "en",
+            "value": "2018-03-03T20:45:33+00:00",
+            "lang": "uk",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -121,27 +121,27 @@
     "sticky": [
         {
             "value": false,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "metatag": [
         {
             "value": {
-                "title": "\u041f\u0440\u043e \u0441\u0430\u0434\u043e\u043a | Site name",
-                "canonical_url": "http:\/\/default\/node\/7",
-                "description": "\u041d\u0430\u0448\u0430 \u0430\u0434\u0440\u0435\u0441\u0430:\n\n\u00a0\n\n\u0432\u0443\u043b\u0438\u0446\u044f \u0413\u0435\u0440\u043e\u0457\u0432 \u041c\u0430\u0439\u0434\u0430\u043d\u0443, 8,\n\n\u041b\u044c\u0432\u0456\u0432, \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c,\n\n79000\n\n\u0442\u0435\u043b. (032) 238-22-13"
+                "title": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 | Site name",
+                "canonical_url": "http:\/\/default\/node\/11",
+                "description": "\u041e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0439\u043d\u0430 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430, \u043f\u0435\u0440\u0435\u043b\u0456\u043a \u043f\u043e\u0441\u0430\u0434, \u043f\u0440\u0438\u0437\u0432\u0438\u0449, \u043c\u043e\u0436\u043b\u0438\u0432\u043e, \u0456\u043d\u0448\u0456 \u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0456 \u0434\u0430\u043d\u0456."
             }
         }
     ],
@@ -149,16 +149,16 @@
         {
             "alias": null,
             "pid": null,
-            "langcode": "en",
-            "lang": "en"
+            "langcode": "uk",
+            "lang": "uk"
         }
     ],
     "body": [
         {
-            "value": "<p>\u041d\u0430\u0448\u0430 \u0430\u0434\u0440\u0435\u0441\u0430:<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>\u0432\u0443\u043b\u0438\u0446\u044f \u0413\u0435\u0440\u043e\u0457\u0432 \u041c\u0430\u0439\u0434\u0430\u043d\u0443, 8,<\/p>\r\n\r\n<p>\u041b\u044c\u0432\u0456\u0432, \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c,<\/p>\r\n\r\n<p>79000<\/p>\r\n\r\n<p>\u0442\u0435\u043b. (032) 238-22-13<\/p>\r\n",
+            "value": "<p>\u041e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0439\u043d\u0430 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430, \u043f\u0435\u0440\u0435\u043b\u0456\u043a \u043f\u043e\u0441\u0430\u0434, \u043f\u0440\u0438\u0437\u0432\u0438\u0449, \u043c\u043e\u0436\u043b\u0438\u0432\u043e, \u0456\u043d\u0448\u0456 \u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0456 \u0434\u0430\u043d\u0456.<\/p>\r\n",
             "format": "basic_html",
             "summary": "",
-            "lang": "en"
+            "lang": "uk"
         }
     ]
 }

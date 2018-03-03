@@ -22,6 +22,8 @@ function oos_content_uninstall() {
       'b5407690-e364-49dd-8ce9-fb5d6d704a85',
       'cedb48dc-7514-472e-8678-01980efdfb17',
       '5b4f57bc-5ef4-45dc-8f87-864ec1727df8',
+      'd581d667-76b7-4bd9-af2e-c01d5437b327',
+      '91f11584-efff-4ccf-828e-6c6347459575',
     ],
     'taxonomy_term' => [
       '0d767cc0-7324-4a79-8def-5401baaddb03',
@@ -41,7 +43,7 @@ function oos_content_uninstall() {
     }
   }
   catch (\Exception $exception) {
-    \Drupal::logger('oos_base')
+    \Drupal::logger('oos_content')
       ->error($exception->getMessage() . $exception->getTraceAsString());
   }
 }

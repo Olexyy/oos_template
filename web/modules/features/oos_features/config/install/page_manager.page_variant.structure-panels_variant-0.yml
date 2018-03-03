@@ -2,14 +2,27 @@ langcode: en
 status: true
 dependencies:
   config:
-    - page_manager.page.teachers
+    - page_manager.page.structure
+    - views.view.site_provider
   module:
     - panels
-id: teachers-panels_variant-0
+    - views
+id: structure-panels_variant-0
 label: Panels
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    56b240ee-1c10-4d39-8de0-3a41932cdbef:
+      id: 'views_block:site_provider-structure'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: 56b240ee-1c10-4d39-8de0-3a41932cdbef
+      context_mapping: {  }
   id: panels_variant
   uuid: 94717394-fbbc-4871-81ed-e9ebcc9138c9
   label: null
@@ -43,9 +56,9 @@ variant_settings:
         attributes: ''
   page_title: ''
   storage_type: page_manager
-  storage_id: teachers-panels_variant-0
+  storage_id: structure-panels_variant-0
   builder: ipe
-page: teachers
+page: structure
 weight: 0
 selection_criteria: {  }
 selection_logic: and

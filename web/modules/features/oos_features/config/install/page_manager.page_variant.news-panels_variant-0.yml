@@ -3,13 +3,26 @@ status: true
 dependencies:
   config:
     - page_manager.page.news
+    - views.view.news
   module:
     - panels
+    - views
 id: news-panels_variant-0
 label: Panels
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    0f9619f5-5140-4d3f-afa1-926450ae3055:
+      id: 'views_block:news-general_list'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: 0f9619f5-5140-4d3f-afa1-926450ae3055
+      context_mapping: {  }
   id: panels_variant
   uuid: 55ab7edb-6681-44ae-8698-d462995d2c7c
   label: null

@@ -6419,9 +6419,9 @@ body.toolbar-loading {
     font-size: large;
     margin: 0; }
 
-.block-views-blocknews-block .view-header {
+.view-id-news .view-header, .view-id-groups .view-header {
   margin: 20px 40px; }
-  .block-views-blocknews-block .view-header a {
+  .view-id-news .view-header a, .view-id-groups .view-header a {
     font-size: x-large; }
 
 .latest-news {
