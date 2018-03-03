@@ -38,7 +38,7 @@
     ],
     "vid": [
         {
-            "value": 11
+            "value": 46
         }
     ],
     "langcode": [
@@ -177,6 +177,15 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "\u0421\u0432\u044f\u0442\u043e \u043d\u0430\u0431\u043b\u0438\u0436\u0430\u0454\u0442\u044c\u0441\u044f 2 | Site name",
+                "canonical_url": "http:\/\/default\/node\/5",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed elementum tempus egestas sed. Augue neque gravida in fermentum et sollicitudin ac orci. Erat imperdiet sed euismod nisi porta lorem mollis. Placerat in egestas erat imperdiet. Rutrum quisque non tellus orci ac auctor augue mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo. Et netus et malesuada fames ac turpis egestas maecenas."
+            }
+        }
+    ],
     "path": [
         {
             "alias": null,
@@ -197,7 +206,7 @@
         {
             "status": 2,
             "cid": 0,
-            "last_comment_timestamp": 1519664372,
+            "last_comment_timestamp": 1519855989,
             "last_comment_name": null,
             "last_comment_uid": 1,
             "comment_count": 0,

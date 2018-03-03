@@ -1,0 +1,11 @@
+langcode: uk
+status: true
+dependencies: {  }
+id: parents
+label: Parents
+description: 'Parents info page.'
+use_admin_theme: false
+path: /parents
+access_logic: and
+access_conditions: {  }
+parameters: {  }

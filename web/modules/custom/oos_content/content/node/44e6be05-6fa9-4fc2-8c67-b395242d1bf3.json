@@ -35,7 +35,7 @@
     ],
     "vid": [
         {
-            "value": 1
+            "value": 41
         }
     ],
     "langcode": [
@@ -157,6 +157,15 @@
         {
             "value": true,
             "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "\u0417\u0435\u0440\u043d\u044f\u0442\u043a\u0430 | Site name",
+                "canonical_url": "http:\/\/default\/node\/1",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum posuere lorem ipsum dolor sit amet. Risus pretium quam vulputate dignissim. Morbi quis commodo odio aenean sed adipiscing diam donec. Et tortor at risus viverra adipiscing. Quis commodo odio aenean sed. Scelerisque fermentum dui faucibus in ornare quam. Massa sapien faucibus et molestie ac feugiat. Vitae auctor eu augue ut lectus. Elementum integer enim neque volutpat ac tincidunt vitae semper quis. Velit laoreet id donec ultrices tincidunt arcu."
+            }
         }
     ],
     "path": [

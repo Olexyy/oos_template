@@ -52,6 +52,14 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "\u041d\u0430\u043c\u0438\u0441\u0442\u0438\u043d\u043a\u0438 | Site name",
+                "canonical_url": "http:\/\/default\/en\/taxonomy\/term\/2"
+            }
+        }
+    ],
     "path": [
         {
             "alias": null,
