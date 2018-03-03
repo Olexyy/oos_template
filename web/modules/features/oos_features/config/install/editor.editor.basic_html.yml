@@ -16,6 +16,9 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
+            - Strike
+            - RemoveFormat
         -
           name: Linking
           items:
@@ -35,10 +38,22 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:
             - Source
+      -
+        -
+          name: Positioning
+          items:
+            - JustifyRight
+            - JustifyCenter
+            - JustifyLeft
+            - JustifyBlock
+            - Outdent
+            - Indent
+            - HorizontalRule
   plugins:
     stylescombo:
       styles: ''

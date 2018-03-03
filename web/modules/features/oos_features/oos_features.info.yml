@@ -25,6 +25,7 @@ dependencies:
   - image
   - language
   - layout_discovery
+  - mailsystem
   - media
   - menu_ui
   - metatag
@@ -39,9 +40,8 @@ dependencies:
   - radix_layouts
   - rdf
   - search
-  - system
   - swiftmailer
-  - mailsystem
+  - system
   - taxonomy
   - text
   - user
