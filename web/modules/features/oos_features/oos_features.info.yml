@@ -40,6 +40,8 @@ dependencies:
   - rdf
   - search
   - system
+  - swiftmailer
+  - mailsystem
   - taxonomy
   - text
   - user
