@@ -1,0 +1,12 @@
+transport: smtp
+smtp_host: smtp.gmail.com
+smtp_port: 465
+smtp_encryption: ssl
+smtp_credential_provider: swiftmailer
+smtp_credentials:
+  swiftmailer:
+    username: dnz.135.lviv@gmail.com
+    password: Aa111!Aa
+sendmail_path: /usr/sbin/sendmail
+sendmail_mode: bs
+spool_directory: ''
