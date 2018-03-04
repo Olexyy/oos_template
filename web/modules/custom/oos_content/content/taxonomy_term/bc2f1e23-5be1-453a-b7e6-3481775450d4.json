@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/en\/taxonomy\/term\/4?_format=hal_json"
+            "href": "http:\/\/default/taxonomy\/term\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/group_name"
@@ -19,8 +19,8 @@
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "uk",
+            "lang": "uk"
         }
     ],
     "vid": [
@@ -31,7 +31,7 @@
     "name": [
         {
             "value": "\u0425\u043c\u0430\u0440\u0438\u043d\u043a\u0438",
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "weight": [
@@ -42,21 +42,21 @@
     "changed": [
         {
             "value": "2018-02-28T22:12:05+00:00",
-            "lang": "en",
+            "lang": "uk",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "metatag": [
         {
             "value": {
                 "title": "\u0425\u043c\u0430\u0440\u0438\u043d\u043a\u0438 | Site name",
-                "canonical_url": "http:\/\/default\/en\/taxonomy\/term\/4"
+                "canonical_url": "http:\/\/default/taxonomy\/term\/4"
             }
         }
     ],
@@ -64,8 +64,8 @@
         {
             "alias": null,
             "pid": null,
-            "langcode": "en",
-            "lang": "en"
+            "langcode": "uk",
+            "lang": "uk"
         }
     ]
 }

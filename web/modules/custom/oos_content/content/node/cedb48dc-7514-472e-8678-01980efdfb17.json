@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/en\/node\/8?_format=hal_json"
+            "href": "http:\/\/default/node\/8?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
             {
-                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                "href": "http:\/\/default/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
             {
-                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
-                "lang": "en"
+                "href": "http:\/\/default/user\/1?_format=hal_json",
+                "lang": "uk"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_related_groups": [
             {
-                "href": "http:\/\/default\/en\/node\/3?_format=hal_json"
+                "href": "http:\/\/default/node\/3?_format=hal_json"
             }
         ]
     },
@@ -40,8 +40,8 @@
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "uk",
+            "lang": "uk"
         }
     ],
     "type": [
@@ -60,7 +60,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -77,7 +77,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -88,14 +88,14 @@
                         "value": "217d426c-c8c1-4527-94e0-e09052bb159d"
                     }
                 ],
-                "lang": "en"
+                "lang": "uk"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_related_groups": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/en\/node\/3?_format=hal_json"
+                        "href": "http:\/\/default/node\/3?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/node\/group"
@@ -112,51 +112,51 @@
     "status": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "title": [
         {
             "value": "\u0421\u0432\u044f\u0442\u043e \u043d\u0430\u0431\u043b\u0438\u0436\u0430\u0454\u0442\u044c\u0441\u044f 3",
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "created": [
         {
             "value": "2018-02-28T22:15:11+00:00",
-            "lang": "en",
+            "lang": "uk",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
             "value": "2018-02-28T22:15:28+00:00",
-            "lang": "en",
+            "lang": "uk",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "sticky": [
         {
             "value": false,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "metatag": [
@@ -172,8 +172,8 @@
         {
             "alias": null,
             "pid": null,
-            "langcode": "en",
-            "lang": "en"
+            "langcode": "uk",
+            "lang": "uk"
         }
     ],
     "body": [
@@ -181,7 +181,7 @@
             "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sed elementum tempus egestas sed. Augue neque gravida in fermentum et sollicitudin ac orci. Erat imperdiet sed euismod nisi porta lorem mollis. Placerat in egestas erat imperdiet. Rutrum quisque non tellus orci ac auctor augue mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo. Et netus et malesuada fames ac turpis egestas maecenas. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Massa id neque aliquam vestibulum morbi blandit cursus.<\/p>\r\n\r\n<p>Nibh tellus molestie nunc non. In massa tempor nec feugiat nisl pretium fusce id velit. Aliquam vestibulum morbi blandit cursus risus. Non consectetur a erat nam at. Mus mauris vitae ultricies leo integer malesuada nunc vel risus. Sed cras ornare arcu dui vivamus. Felis eget velit aliquet sagittis id consectetur purus ut. Ridiculus mus mauris vitae ultricies leo integer malesuada. Morbi enim nunc faucibus a pellentesque sit. Sed elementum tempus egestas sed sed risus. Arcu dui vivamus arcu felis bibendum ut. Ac turpis egestas maecenas pharetra convallis posuere morbi. Massa massa ultricies mi quis. Sed libero enim sed faucibus turpis in eu mi.<\/p>\r\n\r\n<p>Sit amet risus nullam eget felis eget nunc lobortis. Sed turpis tincidunt id aliquet risus feugiat. Feugiat in fermentum posuere urna nec tincidunt praesent. In fermentum et sollicitudin ac. Viverra suspendisse potenti nullam ac tortor vitae purus. Vitae aliquet nec ullamcorper sit. Ut venenatis tellus in metus vulputate eu scelerisque felis. Mauris ultrices eros in cursus turpis massa tincidunt dui. Vitae sapien pellentesque habitant morbi tristique senectus. Nunc eget lorem dolor sed. Ipsum nunc aliquet bibendum enim facilisis gravida. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Eu sem integer vitae justo eget magna fermentum iaculis. Dolor sit amet consectetur adipiscing. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis.<\/p>\r\n",
             "format": "basic_html",
             "summary": "",
-            "lang": "en"
+            "lang": "uk"
         }
     ],
     "comment": [
@@ -192,7 +192,7 @@
             "last_comment_name": null,
             "last_comment_uid": 1,
             "comment_count": 0,
-            "lang": "en"
+            "lang": "uk"
         }
     ]
 }
