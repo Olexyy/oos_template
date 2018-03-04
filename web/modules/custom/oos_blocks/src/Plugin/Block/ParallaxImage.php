@@ -182,12 +182,12 @@ class ParallaxImage extends BlockBase {
               'parallax-text',
             ],
             'style' => "text-align: center;
-              margin-top: calc(100vw * 0.14);
+              margin-top: calc(100vw * 0.10);
               background-color: rgba(0, 0, 0, 0.3);
               padding: 15px;
               display: inline-block;
               color: white;
-              font-size: 3em;
+              font-size: 33px;
               font-weight: bold;
               {$textCss}",
           ], //#c9f01a;
@@ -201,7 +201,6 @@ class ParallaxImage extends BlockBase {
             background-position: center;
             background-repeat: repeat;
             background-size: cover;
-            top: -50px;
             text-align: center;
             {$imageCss}",
         ],
