@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: global
-label: Global
+label: Глобальне
 tags:
   canonical_url: '[current-page:url]'
   description: 'дитячий садок днз 135 львів садок Св. Миколая'

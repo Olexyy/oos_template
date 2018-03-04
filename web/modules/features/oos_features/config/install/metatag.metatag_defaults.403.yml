@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: '403'
-label: '403 access denied'
+label: '403 доступ заборонено'
 tags:
   canonical_url: '[site:url]'
   shortlink: '[site:url]'

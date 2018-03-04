@@ -1,11 +1,11 @@
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
     - editor
     - entity_embed
     - video_embed_wysiwyg
-name: 'Basic HTML'
+name: 'Простий HTML'
 format: basic_html
 weight: 0
 filters:

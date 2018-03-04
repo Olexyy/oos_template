@@ -1,7 +1,7 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: comment
-label: 'Default comments'
+label: 'Коментарі за замовчуванням'
 target_entity_type_id: node
-description: 'Allows commenting on content'
+description: 'Дозволяє коментувати матеріали'

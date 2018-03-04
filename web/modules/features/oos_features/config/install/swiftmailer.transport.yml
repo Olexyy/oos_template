@@ -10,3 +10,4 @@ smtp_credentials:
 sendmail_path: /usr/sbin/sendmail
 sendmail_mode: bs
 spool_directory: ''
+langcode: uk

@@ -1,4 +1,4 @@
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.group.body
 field_name: body
 entity_type: node
 bundle: group
-label: Body
+label: Тіло
 description: ''
 required: false
 translatable: true

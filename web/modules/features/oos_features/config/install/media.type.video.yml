@@ -1,10 +1,10 @@
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
     - video_embed_media
 id: video
-label: Video
+label: Відео
 description: 'Video embed integration.'
 source: video_embed_field
 queue_thumbnail_downloads: false

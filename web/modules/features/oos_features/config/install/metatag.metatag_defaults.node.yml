@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: node
-label: Content
+label: Вміст
 tags:
   title: '[node:title] | [site:name]'
   description: '[node:summary]'

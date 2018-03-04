@@ -1,4 +1,4 @@
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Group
+name: Група
 type: group
 description: 'Defines group of children.'
 help: ''

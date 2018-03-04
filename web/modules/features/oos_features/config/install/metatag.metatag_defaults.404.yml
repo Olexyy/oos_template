@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: '404'
-label: '404 page not found'
+label: '404 сторінку не знайдено'
 tags:
   canonical_url: '[site:url]'
   shortlink: '[site:url]'

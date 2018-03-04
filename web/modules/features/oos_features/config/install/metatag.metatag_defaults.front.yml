@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: front
-label: 'Front page'
+label: 'Головна сторінка'
 tags:
   canonical_url: '[site:url]'
   shortlink: '[site:url]'

@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: groups
-label: Groups
+label: Групи
 description: Groups.
 use_admin_theme: false
 path: /groups

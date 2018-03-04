@@ -1,4 +1,4 @@
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -9,7 +9,7 @@ dependencies:
     - panels
     - views
 id: landing-panels_variant-0
-label: Panels
+label: Панелі
 variant: panels_variant
 variant_settings:
   blocks:
@@ -21,7 +21,7 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: main
-      weight: 0
+      weight: 1
       uuid: 30a500c6-5672-48bb-af9c-db56b883ae11
       context_mapping: {  }
     bdacd175-b84d-45f0-a3fe-06851c558241:

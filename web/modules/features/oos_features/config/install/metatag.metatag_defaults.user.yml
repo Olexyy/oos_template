@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: user
-label: User
+label: Користувач
 tags:
   canonical_url: '[user:url]'
   description: '[site:name]'

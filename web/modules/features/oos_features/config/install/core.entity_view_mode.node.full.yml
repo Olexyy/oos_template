@@ -1,9 +1,9 @@
-langcode: en
+langcode: uk
 status: false
 dependencies:
   module:
     - node
 id: node.full
-label: 'Full content'
+label: 'Повний вміст'
 targetEntityType: node
 cache: true

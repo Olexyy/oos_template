@@ -1,4 +1,4 @@
-langcode: en
+langcode: uk
 status: false
 dependencies:
   config:
@@ -28,7 +28,7 @@ third_party_settings:
         blocks:
           aa8308eb-f7b4-405f-817f-279699d17db7:
             id: 'entity_field:node:body'
-            label: Body
+            label: Тіло
             provider: ctools_block
             label_display: '0'
             formatter:
@@ -45,7 +45,7 @@ third_party_settings:
             uuid: aa8308eb-f7b4-405f-817f-279699d17db7
           e9978d32-e87e-4e72-bde4-05fa11e1f15d:
             id: 'entity_field:node:field_date'
-            label: Date
+            label: Дата
             provider: ctools_block
             label_display: '0'
             formatter:
@@ -81,7 +81,7 @@ third_party_settings:
               entity: '@panelizer.entity_context:entity'
             uuid: adddadd0-8dbd-4d14-b39e-3701689b7d0d
         id: panels_variant
-        label: Default
+        label: Базово
         uuid: a1b7f668-7a53-44d2-9a48-268f3e2f9566
         weight: 0
         layout: bs_1col_stacked

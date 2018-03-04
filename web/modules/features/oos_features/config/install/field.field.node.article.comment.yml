@@ -1,4 +1,4 @@
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.article.comment
 field_name: comment
 entity_type: node
 bundle: article
-label: Comments
+label: Коментарі
 description: ''
 required: true
 translatable: true

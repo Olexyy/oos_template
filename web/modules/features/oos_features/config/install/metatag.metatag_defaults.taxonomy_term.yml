@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: taxonomy_term
-label: 'Taxonomy term'
+label: 'Термін таксономії'
 tags:
   canonical_url: '[term:url]'
   description: '[term:description]'

@@ -1,8 +1,8 @@
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 id: about
-label: About
+label: 'Про модуль'
 description: About.
 use_admin_theme: false
 path: /about

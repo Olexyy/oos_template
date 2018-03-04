@@ -2,6 +2,6 @@ langcode: uk
 status: true
 dependencies: {  }
 id: footer
-label: Footer
-description: 'Site information links'
+label: 'Нижній колонтитул'
+description: 'Посилання відомостей про сайт'
 locked: true
