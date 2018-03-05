@@ -4,6 +4,12 @@
  * Implements hook_install().
  */
 function oos_base_install() {
+  $blocks = \Drupal::configFactory()->listAll('block.block');
+  foreach ($blocks as $block) {
+    if (strpos($block, 'seven') === FALSE) {
+      \Drupal::configFactory()->getEditable($block)->delete();
+    }
+  }
   \Drupal::service('theme_installer')->install(['oos']);
   \Drupal::service('theme_handler')->setDefault('oos');
   if (\Drupal::service('theme_handler')->themeExists('bartik')) {
@@ -15,6 +21,8 @@ function oos_base_install() {
     ->set('page.front', '/landing')
     ->set('mail', 'dnz.135.lviv@gmail.com')
     ->save(TRUE);
+  \Drupal::service('module_installer')->install(['oos_features']);
+  \Drupal::service('module_installer')->install(['oos_content']);
 }
 
 /**

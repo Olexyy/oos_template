@@ -1,9 +1,9 @@
 langcode: uk
 status: true
 dependencies: {  }
-name: 'Проста сторінка'
+name: 'Basic page'
 type: page
-description: '<em>Прості сторінки</em> використовуються для розміщення незмінюваного вмісту на кшталт сторінки ''Про нас''.'
+description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
 help: ''
 new_revision: true
 preview_mode: 1

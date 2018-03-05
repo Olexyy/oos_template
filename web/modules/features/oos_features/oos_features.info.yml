@@ -25,6 +25,7 @@ dependencies:
   - image
   - language
   - layout_discovery
+  - locale
   - mailsystem
   - media
   - menu_ui

@@ -10,7 +10,7 @@ id: comment.comment.comment_body
 field_name: comment_body
 entity_type: comment
 bundle: comment
-label: Коментар
+label: Comment
 description: ''
 required: true
 translatable: true

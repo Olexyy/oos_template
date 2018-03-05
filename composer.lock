@@ -124,16 +124,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "1.23.1",
+            "version": "1.23.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "8c5067b75f7e2b2bffdeb20553e42cf098290589"
+                "reference": "b157b38c8c148c67d5b80c7c349b1a446115ea0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/8c5067b75f7e2b2bffdeb20553e42cf098290589",
-                "reference": "8c5067b75f7e2b2bffdeb20553e42cf098290589",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/b157b38c8c148c67d5b80c7c349b1a446115ea0e",
+                "reference": "b157b38c8c148c67d5b80c7c349b1a446115ea0e",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal code generator",
-            "time": "2018-02-27T19:15:16+00:00"
+            "time": "2018-03-03T04:17:26+00:00"
         },
         {
             "name": "composer/installers",
@@ -6208,16 +6208,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.35.1",
+            "version": "v1.35.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ffda54d85cc3aec3ba499c8c0eda9b2176edfe83"
+                "reference": "9c24f2cd39dc1906b76879e099970b7e53724601"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ffda54d85cc3aec3ba499c8c0eda9b2176edfe83",
-                "reference": "ffda54d85cc3aec3ba499c8c0eda9b2176edfe83",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9c24f2cd39dc1906b76879e099970b7e53724601",
+                "reference": "9c24f2cd39dc1906b76879e099970b7e53724601",
                 "shasum": ""
             },
             "require": {
@@ -6269,7 +6269,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2018-03-02T18:06:27+00:00"
+            "time": "2018-03-03T16:21:29+00:00"
         },
         {
             "name": "webflo/drupal-finder",

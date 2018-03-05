@@ -2,10 +2,10 @@ langcode: uk
 status: true
 dependencies: {  }
 id: feedback
-label: 'Відгук про сайт'
+label: 'Website feedback'
 recipients:
-  - dnz.135.lviv@gmail.com
+  - admin@example.com
 reply: ''
 weight: 0
-message: 'Ваше повідомлення було надіслано.'
+message: 'Your message has been sent.'
 redirect: ''

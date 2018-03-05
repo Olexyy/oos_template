@@ -10,7 +10,7 @@ id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
-label: Тіло
+label: Body
 description: ''
 required: false
 translatable: true

@@ -3,6 +3,3 @@ type: module
 description: 'OOS base.'
 package: oos
 core: 8.x
-
-dependencies:
-  - oos_features

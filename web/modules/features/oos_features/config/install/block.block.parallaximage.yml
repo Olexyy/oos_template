@@ -1,0 +1,29 @@
+langcode: uk
+status: true
+dependencies:
+  module:
+    - oos_blocks
+    - system
+  theme:
+    - oos
+id: parallaximage
+theme: oos
+region: extra_header
+weight: 0
+provider: null
+plugin: parallax_image
+settings:
+  id: parallax_image
+  label: 'Parallax image'
+  provider: oos_blocks
+  label_display: '0'
+  media: '1'
+  text: 'Вас вітає садок Святого Миколая!'
+  text_css: 'color: yellow;'
+  image_css: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

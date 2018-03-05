@@ -1,8 +1,8 @@
 langcode: uk
 status: true
 dependencies: {  }
-name: Теґи
+name: Tags
 vid: tags
-description: 'Теґи використовуються для групування статей зі схожими темами в категорії.'
+description: 'Use tags to group articles on similar topics into categories.'
 hierarchy: 0
 weight: 0
