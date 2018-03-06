@@ -1,0 +1,11 @@
+langcode: uk
+status: true
+dependencies: {  }
+id: useful_links
+label: 'Useful links'
+description: ''
+use_admin_theme: false
+path: /links
+access_logic: and
+access_conditions: {  }
+parameters: {  }

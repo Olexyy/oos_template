@@ -1,0 +1,65 @@
+langcode: uk
+status: true
+dependencies:
+  config:
+    - page_manager.page.useful_links
+    - views.view.site_provider
+  module:
+    - panels
+    - views
+id: useful_links-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    8052f049-2f55-4935-8266-c10f5a59e439:
+      id: 'views_block:site_provider-site_provider'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: 8052f049-2f55-4935-8266-c10f5a59e439
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 6fa5440e-485c-4b2a-9e6e-82be2c9940b8
+  label: null
+  weight: 0
+  layout: bs_1col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: ''
+  storage_type: page_manager
+  storage_id: useful_links-panels_variant-0
+  builder: ipe
+page: useful_links
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
