@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default/admin\/structure\/menu\/item\/9\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/9\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -93,7 +93,7 @@
     "metatag": [
         {
             "value": {
-                "title": "| Site name",
+                "title": "| DNZ 135",
                 "canonical_url": "http:\/\/default\/%3Cnone%3E",
                 "description": "\u0434\u0438\u0442\u044f\u0447\u0438\u0439 \u0441\u0430\u0434\u043e\u043a \u0434\u043d\u0437 135 \u043b\u044c\u0432\u0456\u0432 \u0441\u0430\u0434\u043e\u043a \u0421\u0432. \u041c\u0438\u043a\u043e\u043b\u0430\u044f"
             }

@@ -12,6 +12,7 @@ function oos_content_uninstall() {
       '25e56fdd-24c5-43fa-8807-08f6b4ba083a',
       'd90ccfd4-2330-4db3-ae22-237686a07f1c',
       'e1be913f-2e7a-44ed-b9f5-8ed81f401c0c',
+      '306b382d-ef48-4eb8-a930-960f43d219ac',
     ],
     'node' => [
       '8c3246ec-6143-4609-a717-128f1aec4e83',

@@ -167,21 +167,25 @@ class ParallaxImage extends BlockBase {
     if ($media = Media::load($this->configuration['media'])) {
       $image = $media->field_media_image->entity;
       $url = file_create_url($image->getFileUri());
-      $textCss = $this->configuration['text_css'];
-      $imageCss = $this->configuration['image_css'];
-      $content = [
+    }
+    else {
+      $url = file_create_url("/modules/custom/oos_blocks/images/fable-landing.jpg");
+    }
+    $textCss = $this->configuration['text_css'];
+    $imageCss = $this->configuration['image_css'];
+    $content = [
+      '#type' => 'html_tag',
+      '#tag' => 'div',
+      '#allowed_tags' => ['div'],
+      'parallax-text' => [
         '#type' => 'html_tag',
         '#tag' => 'div',
-        '#allowed_tags' => ['div'],
-        'parallax-text' => [
-          '#type' => 'html_tag',
-          '#tag' => 'div',
-          '#value' => $this->configuration['text'],
-          '#attributes' => [
-            'class' => [
-              'parallax-text',
-            ],
-            'style' => "text-align: center;
+        '#value' => $this->configuration['text'],
+        '#attributes' => [
+          'class' => [
+            'parallax-text',
+          ],
+          'style' => "text-align: center;
               margin-top: calc(100vw * 0.10);
               background-color: rgba(0, 0, 0, 0.3);
               padding: 15px;
@@ -190,11 +194,11 @@ class ParallaxImage extends BlockBase {
               font-size: 33px;
               font-weight: bold;
               {$textCss}",
-          ], //#c9f01a;
-        ],
-        '#attributes' => [
-          'class' => ['parallax'],
-          'style' => "background-image: url({$url});
+        ], //#c9f01a;
+      ],
+      '#attributes' => [
+        'class' => ['parallax'],
+        'style' => "background-image: url({$url});
             width: 100%;
             height: calc(100vw * 0.5);
             background-attachment: fixed;
@@ -203,12 +207,9 @@ class ParallaxImage extends BlockBase {
             background-size: cover;
             text-align: center;
             {$imageCss}",
-        ],
-      ];
-      return $content;
-    }
-
-    return [];
+      ],
+    ];
+    return $content;
   }
 
   /**

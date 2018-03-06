@@ -42,7 +42,6 @@ class Controller extends ControllerBase {
    * Handler to revert default content.
    */
   public function revertContent() {
-    try {
       $modules = ['oos_content'];
       $this->moduleInstaller->uninstall($modules);
       $this->getLogger('oos_base')
@@ -51,8 +50,5 @@ class Controller extends ControllerBase {
       $this->getLogger('oos_base')
         ->info('Installed module "oos_content"');
       return $this->redirect('<front>');
-    } catch (\Exception $exception) {
-      throw new AccessException();
-    }
   }
 }
