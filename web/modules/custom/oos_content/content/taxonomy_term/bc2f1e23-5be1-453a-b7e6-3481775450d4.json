@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default/taxonomy\/term\/4?_format=hal_json"
+            "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/group_name"
@@ -55,8 +55,8 @@
     "metatag": [
         {
             "value": {
-                "title": "\u0425\u043c\u0430\u0440\u0438\u043d\u043a\u0438 | Site name",
-                "canonical_url": "http:\/\/default/taxonomy\/term\/4"
+                "title": "\u0425\u043c\u0430\u0440\u0438\u043d\u043a\u0438 | DNZ 135",
+                "canonical_url": "http:\/\/default\/taxonomy\/term\/4"
             }
         }
     ],
