@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - oos_blocks
+  theme:
+    - oos
+id: social
+theme: oos
+region: footer
+weight: -1
+provider: null
+plugin: social
+settings:
+  id: social
+  label: Social
+  provider: oos_blocks
+  label_display: '0'
+  facebook: 'https://www.facebook.com'
+  twitter: 'https://www.twitter.com'
+  googlePlus: 'https://www.google.com'
+  size: '30'
+  media: ''
+  text: 'Вас вітає садок Святого Миколая!'
+  text_css: 'color: yellow;'
+  image_css: ''
+visibility: {  }

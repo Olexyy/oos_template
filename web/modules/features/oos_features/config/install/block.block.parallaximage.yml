@@ -17,7 +17,7 @@ settings:
   label: 'Parallax image'
   provider: oos_blocks
   label_display: '0'
-  media: '1'
+  media: '0'
   text: 'Вас вітає садок Святого Миколая!'
   text_css: 'color: yellow;'
   image_css: ''

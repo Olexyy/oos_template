@@ -10,7 +10,7 @@ dependencies:
 id: footer
 theme: oos
 region: footer
-weight: 0
+weight: -2
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
