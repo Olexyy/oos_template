@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 97
+            "value": 98
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-03-06T22:57:17+00:00",
+            "value": "2018-03-06T23:20:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -108,7 +108,7 @@
     ],
     "changed": [
         {
-            "value": "2018-03-06T22:57:17+00:00",
+            "value": "2018-03-06T23:20:55+00:00",
             "lang": "uk",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -155,7 +155,7 @@
     ],
     "body": [
         {
-            "value": "<p>- https:\/\/mon.gov.ua\/ua&nbsp; &nbsp; &nbsp; - \u041c\u0456\u043d\u0456\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u043e\u0441\u0432\u0456\u0442\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438<\/p>\r\n\r\n<p>-&nbsp;http:\/\/osvitportal.lviv.ua\/&nbsp; &nbsp;- \u041e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u043f\u043e\u0440\u0442\u0430\u043b \u041b\u044c\u0432\u0456\u0432\u0449\u0456\u043d\u0438<\/p>\r\n\r\n<p>-&nbsp;http:\/\/lvivedu.com\/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;\u041c\u0435\u0440\u0435\u0436\u0430 \u0434\u043e\u0448\u043a\u0456\u043b\u044c\u043d\u0438\u0445 \u043d\u0430\u0432\u0447\u0430\u043b\u044c\u043d\u0438\u0445 \u0437\u0430\u043a\u043b\u0430\u0434\u0456\u0432 \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456<\/p>\r\n\r\n<p>-&nbsp;http:\/\/la-strada.org.ua\/&nbsp; &nbsp; &nbsp;- \u0413\u0440\u043e\u043c\u0430\u0434\u0441\u044c\u043a\u0430 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u044f \"\u041b\u0430 \u0421\u0442\u0440\u0430\u0434\u0430\"<\/p>\r\n",
+            "value": "<p>- <a href=\"https:\/\/mon.gov.ua\/ua\">https:\/\/mon.gov.ua\/ua<\/a>&nbsp; &nbsp; &nbsp; - \u041c\u0456\u043d\u0456\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u043e\u0441\u0432\u0456\u0442\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438<\/p>\r\n\r\n<p>-&nbsp;<a href=\"http:\/\/osvitportal.lviv.ua\/\">http:\/\/osvitportal.lviv.ua\/<\/a>&nbsp; &nbsp;- \u041e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u043f\u043e\u0440\u0442\u0430\u043b \u041b\u044c\u0432\u0456\u0432\u0449\u0456\u043d\u0438<\/p>\r\n\r\n<p>-&nbsp;<a href=\"http:\/\/lvivedu.com\/\">http:\/\/lvivedu.com\/<\/a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;\u041c\u0435\u0440\u0435\u0436\u0430 \u0434\u043e\u0448\u043a\u0456\u043b\u044c\u043d\u0438\u0445 \u043d\u0430\u0432\u0447\u0430\u043b\u044c\u043d\u0438\u0445 \u0437\u0430\u043a\u043b\u0430\u0434\u0456\u0432 \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456<\/p>\r\n\r\n<p>-&nbsp;<a href=\"http:\/\/la-strada.org.ua\/\">http:\/\/la-strada.org.ua\/<\/a>&nbsp; &nbsp; &nbsp;- \u0413\u0440\u043e\u043c\u0430\u0434\u0441\u044c\u043a\u0430 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u044f \"\u041b\u0430 \u0421\u0442\u0440\u0430\u0434\u0430\"<\/p>\r\n",
             "format": "basic_html",
             "summary": "",
             "lang": "uk"

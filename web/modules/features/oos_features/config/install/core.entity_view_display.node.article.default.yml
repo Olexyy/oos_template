@@ -1,26 +1,142 @@
-langcode: uk
+langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_related_groups
     - field.field.node.article.field_tags
-    - image.style.large
     - node.type.article
   module:
-    - comment
     - field_layout
-    - image
     - layout_discovery
+    - panelizer
     - text
     - user
 third_party_settings:
   field_layout:
     id: layout_onecol
     settings: {  }
+  panelizer:
+    enable: true
+    custom: false
+    allow: false
+    default: default
+    displays:
+      default:
+        blocks:
+          fe43ed4e-1871-4878-a5ba-a4f498a9ccf9:
+            id: 'entity_field:node:body'
+            label: Body
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: text_default
+              settings: {  }
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            css_classes: 'lolland ok fucks'
+            region: main
+            weight: 0
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: fe43ed4e-1871-4878-a5ba-a4f498a9ccf9
+          6d7f6f45-0364-4bf7-926f-cfe08ecd6302:
+            id: 'entity_field:node:field_related_groups'
+            label: 'Повʼязані групи'
+            provider: ctools_block
+            label_display: visible
+            formatter:
+              label: hidden
+              type: entity_reference_label
+              settings:
+                link: true
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            css_classes: ''
+            region: bottom
+            weight: 2
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: 6d7f6f45-0364-4bf7-926f-cfe08ecd6302
+          75b09a10-15ae-4253-95e1-c3385e82ebbe:
+            id: 'entity_field:node:field_tags'
+            label: Tags
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: entity_reference_label
+              settings:
+                link: true
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            css_classes: ''
+            region: main
+            weight: 1
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: 75b09a10-15ae-4253-95e1-c3385e82ebbe
+          bca891e1-cef6-49f8-b4d8-9498885fb2ca:
+            id: 'entity_field:node:title'
+            label: Title
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+            css_classes: 'lolland ok fucks'
+            region: top
+            weight: 0
+            uuid: bca891e1-cef6-49f8-b4d8-9498885fb2ca
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+        id: panels_variant
+        label: Default
+        uuid: eb31fd3f-83e7-43ef-bb02-7c956ea3e405
+        weight: 0
+        layout: bs_1col_stacked
+        layout_settings:
+          layout:
+            wrapper: div
+            classes:
+              row: row
+            add_layout_class: 1
+            attributes: ''
+          regions:
+            top:
+              wrapper: div
+              classes:
+                col-sm-12: col-sm-12
+              add_region_classes: 1
+              attributes: ''
+            main:
+              wrapper: div
+              classes:
+                col-sm-12: col-sm-12
+              add_region_classes: 1
+              attributes: ''
+            bottom:
+              wrapper: div
+              classes:
+                col-sm-12: col-sm-12
+              add_region_classes: 1
+              attributes: ''
+        page_title: ''
+        storage_type: panelizer_default
+        storage_id: 'node:article:default:default'
+        builder: ipe
+        pattern: panelizer
+        static_context: {  }
 id: node.article.default
 targetEntityType: node
 bundle: article
@@ -33,37 +149,24 @@ content:
     settings: {  }
     third_party_settings: {  }
     label: hidden
-  comment:
-    type: comment_default
-    weight: 110
-    region: content
+  field_related_groups:
+    weight: 2
     label: above
     settings:
-      view_mode: default
-      pager_id: 0
+      link: true
     third_party_settings: {  }
-  field_image:
-    type: image
-    weight: -1
+    type: entity_reference_label
     region: content
-    settings:
-      image_style: large
-      image_link: ''
-    third_party_settings: {  }
-    label: hidden
   field_tags:
     type: entity_reference_label
-    weight: 10
+    weight: 1
     region: content
     label: above
     settings:
       link: true
     third_party_settings: {  }
-  links:
-    weight: 100
-    region: content
 hidden:
+  comment: true
   field_image: true
-  field_related_groups: true
-  field_tags: true
   langcode: true
+  links: true
