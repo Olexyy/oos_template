@@ -6501,3 +6501,6 @@ a {
   .active a:hover {
     background-color: transparent !important;
     color: #c9f01a; }
+
+.main-container {
+  min-height: 350px; }
