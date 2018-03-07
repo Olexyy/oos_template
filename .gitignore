@@ -7,6 +7,7 @@
 /web/profiles/contrib/
 /web/libraries/
 /web/vendor/
+/web/vendor/composer
 
 # Ignore sensitive information
 /web/sites/*/settings.php
@@ -14,8 +15,6 @@
 
 # Ignore Drupal's file directory
 /web/sites/*/files/*
-# Include folders of export
-!/web/sites/default/files/2018-02
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
