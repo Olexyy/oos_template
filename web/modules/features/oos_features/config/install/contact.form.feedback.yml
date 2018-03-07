@@ -4,8 +4,8 @@ dependencies: {  }
 id: feedback
 label: 'Website feedback'
 recipients:
-  - admin@example.com
+  - dnz.135.lviv@gmail.com
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
+message : 'Ваше повідомлення надіслано.'
 redirect: ''
