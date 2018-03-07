@@ -7,5 +7,5 @@ recipients:
   - dnz.135.lviv@gmail.com
 reply: ''
 weight: 0
-message : 'Ваше повідомлення надіслано.'
+message: 'Ваше повідомлення надіслано.'
 redirect: ''
