@@ -28,3 +28,4 @@ favicon:
   url: 'http://oos_template.loc/themes/custom/oos/favicon.ico'
   use_default: true
 table: ''
+langcode: uk

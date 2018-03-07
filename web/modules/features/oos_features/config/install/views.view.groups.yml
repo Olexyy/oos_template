@@ -65,7 +65,7 @@ display:
           col_class_default: false
           col_class_custom: 'col-xs-12 col-sm-4 col-md-4'
           row_class_default: false
-          row_class_custom: latest-groups
+          row_class_custom: 'latest-groups row'
       row:
         type: fields
         options:
