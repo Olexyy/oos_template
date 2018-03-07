@@ -19,7 +19,7 @@ use Drupal\media\Entity\Media;
  * )
  */
 
-class ParallaxImage extends BlockBase {
+class ParallaxImage extends ConfigurationCachedBlock {
 
   /**
    * {@inheritdoc}
@@ -144,22 +144,6 @@ class ParallaxImage extends BlockBase {
     parent::blockSubmit($form, $form_state);
   }
 
-  /**
-   * Cache tag generator.
-   *
-   * @param array $configuration
-   *   Configuration array.
-   *
-   * @return string
-   *   Hash.
-   */
-  private function getCacheTag(array $configuration = NULL) {
-    if (is_null($configuration)) {
-      $configuration = $this->configuration;
-    }
-    return $this->getPluginId() . ':' . sha1(json_encode($configuration));
-  }
-
    /**
    * {@inheritdoc}
    */
@@ -210,13 +194,6 @@ class ParallaxImage extends BlockBase {
       ],
     ];
     return $content;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getCacheTags() {
-    return Cache::mergeTags(parent::getCacheTags(), [$this->getCacheTag()]);
   }
 
 }

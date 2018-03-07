@@ -17,7 +17,7 @@ use Drupal\Core\Form\SubformStateInterface;
  * )
  */
 
-class Social extends BlockBase {
+class Social extends ConfigurationCachedBlock {
 
   /**
    * {@inheritdoc}
@@ -120,29 +120,6 @@ class Social extends BlockBase {
       }
     }
     return $content;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getCacheTags() {
-    return Cache::mergeTags(parent::getCacheTags(), [$this->getCacheTag()]);
-  }
-
-  /**
-   * Cache tag generator.
-   *
-   * @param array $configuration
-   *   Configuration array.
-   *
-   * @return string
-   *   Hash.
-   */
-  private function getCacheTag(array $configuration = NULL) {
-    if (is_null($configuration)) {
-      $configuration = $this->configuration;
-    }
-    return $this->getPluginId() . ':' . sha1(json_encode($configuration));
   }
 
 }
